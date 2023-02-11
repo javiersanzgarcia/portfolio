@@ -7,7 +7,7 @@ const Home = () => {
         <div className="home-content">
           <h3>Hello!</h3>
           <h2>
-            I Am <span>Javier Sanz </span>
+            I am <span>Javier Sanz </span>
           </h2>
           <p>
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Vitae,
