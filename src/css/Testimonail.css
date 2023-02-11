@@ -1,0 +1,130 @@
+.testimonial {
+  padding: 5rem 4rem 2rem 4rem;
+  background: #f8f8f8;
+}
+.testi-tittle {
+  text-align: center;
+}
+.testi-tittle h2 {
+  padding-bottom: 20px;
+  font-weight: 900;
+  font-size: 35px;
+  font-family: 'Nuosu SIL', serif;
+  color: #3c3c3c;
+}
+.testi-tittle h2 span {
+  color: #21d190;
+}
+.testi-tittle p {
+  font-size: 15px;
+  font-weight: 400;
+  width: 50%;
+  margin: auto;
+  font-family: 'Poppins', sans-serif;
+  padding-bottom: 25px;
+  color: #3c3c3c;
+}
+.testi-line {
+  height: 3px;
+  width: 82px;
+  background-color: #21d190;
+  margin: auto;
+}
+.container {
+  padding-top: 2rem;
+  text-align: center;
+  margin: auto;
+}
+.tab {
+  display: flex;
+}
+.single-tab {
+  background-image: url('../assets/Images/ian-dooley-d1UPkiFd04A-unsplash.jpg');
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+  margin: 0 9px;
+  opacity: 0.5;
+  transition: 0.3s;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.3s;
+  margin-right: 10px;
+  cursor: pointer;
+}
+.single-tab:nth-child(2) {
+  background-image: url('../assets/Images/ian-dooley-d1UPkiFd04A-unsplash.jpg');
+}
+.single-tab:nth-child(3) {
+  background-image: url('../assets/Images/ian-dooley-d1UPkiFd04A-unsplash.jpg');
+}
+.testi-content {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+  display: none;
+}
+.active-content {
+  display: block;
+}
+.active-tab {
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+}
+.user-text p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 32px;
+  color: #727272;
+  font-weight: 400;
+  text-decoration: underline;
+  margin-bottom: 24px;
+  width: 70%;
+  margin: auto;
+}
+.user-text h4 {
+  padding-top: 2rem;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+  color: #21d190;
+}
+@media screen and (max-width: 1024px) {
+  .testimonial {
+    padding: 5rem 2rem 2rem 2rem;
+    background: #f8f8f8;
+  }
+  .testi-tittle p {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 768px) {
+  .testimonial {
+    padding: 5rem 1rem 2rem 1rem;
+    background: #f8f8f8;
+  }
+  .testi-tittle p {
+    width: 100%;
+  }
+  .user-text p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    line-height: 32px;
+    color: #727272;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 24px;
+    width: 100%;
+    margin: auto;
+  }
+  .single-tab {
+    width: 45px;
+    height: 45px;
+  }
+  .active-tab {
+    height: 65px;
+    width: 65px;
+  }
+}

@@ -1,6 +1,6 @@
 # Portfolio
 
-- Based project in the idea exposed in https://www.youtube.com/watch?v=tALribLN96A
+- Based in the idea exposed in https://www.youtube.com/watch?v=tALribLN96A
 
 Tecnologies used:
 
@@ -10,3 +10,4 @@ Tecnologies used:
 - Node
 - Eslint
 - Prettier
+- Font Awesome

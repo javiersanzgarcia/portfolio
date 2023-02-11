@@ -1,0 +1,13 @@
+.footer {
+  padding: 1rem 0;
+  background: #e9e9e9;
+  background: #3c3c3c;
+}
+.footer-container p {
+  color: #3c3c3c;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+}

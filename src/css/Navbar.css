@@ -1,0 +1,194 @@
+nav {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  z-index: 2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 4rem 18px 4rem;
+}
+
+.navbar.active {
+  position: fixed;
+  width: 100%;
+  top: -70px;
+  left: 0;
+  right: 0;
+  z-index: 990;
+  box-shadow: 0 3px 16px 0 rgb(0 0 0 / 10%);
+  background-color: white;
+  transform: translateY(70px);
+  transition: transform 1s ease;
+}
+
+nav h1 {
+  color: #333333;
+  font-size: 2.5rem;
+  font-family: 'Merriweather', serif;
+  letter-spacing: 0.5px;
+}
+
+.dot {
+  color: #21d190;
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu ul {
+  display: flex;
+}
+
+.menu ul li {
+  padding: 0 20px;
+}
+
+.menu ul li a {
+  color: #333333;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  letter-spacing: 0.5px;
+}
+
+.menu ul li a:hover {
+  color: #21d190;
+}
+
+.fa-bars {
+  display: none;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #333333;
+}
+
+.menu ul i {
+  font-size: 2rem;
+  cursor: pointer;
+  color: #21d190;
+  float: right;
+  padding-top: 15px;
+  padding-right: 20px;
+  display: none;
+}
+
+.menu .hire {
+  padding: 10px 30px;
+  background: #21d190;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  margin-left: 45px;
+}
+
+.over {
+  position: fixed;
+  background-color: #232323cc;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+  display: none;
+  z-index: 4;
+}
+
+@media screen and (max-width: 1024px) {
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 3rem;
+    padding-right: 3rem;
+  }
+
+  .navbar.active {
+    display: none;
+  }
+
+  .menu {
+    display: block;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    height: 100vh;
+    width: 300px;
+    z-index: 999;
+    overflow-y: scroll;
+    transform: translateX(-300px);
+    background-color: #fff;
+    visibility: hidden;
+    overflow-x: hidden;
+    transition: transform 1s ease-out;
+  }
+
+  .fa-bars {
+    display: flex;
+  }
+
+  .menu ul i {
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 5px;
+    font-size: 2rem;
+    color: red;
+    cursor: pointer;
+  }
+
+  .mobile-menu {
+    transform: translateX(0);
+    visibility: visible;
+    transition: transform 1s ease-out, visibility 0s;
+  }
+
+  .menu ul {
+    display: block;
+    margin-top: 70px;
+  }
+
+  .menu ul li {
+    display: block;
+    border-bottom: dotted 1px black;
+    padding: 15px 15px;
+    margin: 0;
+  }
+
+  .menu ul li a {
+    color: #333333;
+  }
+
+  .menu .hire {
+    display: none;
+  }
+
+  .actived {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  nav {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+
+  .fa-bars {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  nav {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
