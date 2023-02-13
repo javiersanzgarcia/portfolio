@@ -11,3 +11,9 @@ Tecnologies used:
 - Eslint
 - Prettier
 - Font Awesome
+
+TODO: 
+
+- Texts in EN/ES
+- Substitute Javier Img
+- Rephrase CV 

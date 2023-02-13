@@ -1,0 +1,16 @@
+.flag {
+  cursor: pointer;
+  filter: grayscale(1);
+}
+
+.flag:hover {
+  filter: grayscale(0.5);
+}
+
+.selected {
+  filter: grayscale(0);
+}
+
+.selected:hover {
+  filter: grayscale(0);
+}

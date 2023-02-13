@@ -1,11 +1,14 @@
+import { useTranslation } from 'react-i18next'
 import '../css/Home.css'
 
 const Home = () => {
+  const { t } = useTranslation('global')
+
   return (
     <>
       <section className="home">
         <div className="home-content">
-          <h3>Hello!</h3>
+          <h3>{t('home.hello')}</h3>
           <h2>
             I am <span>Javier Sanz </span>
           </h2>

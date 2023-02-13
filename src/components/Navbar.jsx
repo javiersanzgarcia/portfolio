@@ -1,9 +1,12 @@
 import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
 import '../css/Navbar.css'
+import Flag from './Flag'
+import SpainFlag from '../assets/Images/Spain.svg'
+import UkFlag from '../assets/Images/UK.svg'
 
 const Navbar = () => {
-  const [t, i18n] = useTranslation('global')
+  const { i18n } = useTranslation()
 
   const [showMenu, setShowMenu] = useState(false)
   const [navbar, setNavbar] = useState(false)
@@ -17,6 +20,16 @@ const Navbar = () => {
   }
 
   window.addEventListener('scroll', changeBackground)
+
+  function handleChangeLanguage(language) {
+    i18n.changeLanguage(language)
+  }
+
+  const selectedLanguage = i18n.language
+
+  const rightMargin = {
+    marginRight: ' 10px'
+  }
 
   return (
     <>
@@ -45,8 +58,18 @@ const Navbar = () => {
               <a href="#contact"> Contact </a>
             </li>
             <li>
-              <button onClick={() => i18n.changeLanguage('es')}>ES</button>
-              <button onClick={() => i18n.changeLanguage('en')}>EN</button>
+              <Flag
+                image={SpainFlag}
+                isSelected={selectedLanguage === 'es'}
+                onClick={() => handleChangeLanguage('es')}
+                style={rightMargin}
+              />
+
+              <Flag
+                image={UkFlag}
+                isSelected={selectedLanguage === 'en'}
+                onClick={() => handleChangeLanguage('en')}
+              />
             </li>
           </ul>
           <a className="hire" href="#contact">
