@@ -11,6 +11,7 @@ Tecnologies used:
 - Eslint
 - Prettier
 - Font Awesome
+- i18n (For manage language support)
 
 TODO:
 
