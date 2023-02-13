@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import { useEffect } from 'react'
 import person2 from '../assets/Images/bohemian-man-with-his-arms-crossed-removebg-preview.png'
 import '../CSS/About.css'
 import Aos from 'aos'
@@ -8,6 +8,7 @@ const About = () => {
   useEffect(() => {
     Aos.init({ duration: 2000, once: true, easing: 'ease' })
   })
+
   return (
     <>
       <section className="about" id="about">

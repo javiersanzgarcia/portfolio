@@ -13,7 +13,6 @@ const Contact = () => {
       <section className="contact" id="contact">
         <div data-aos="zoom-in" className="contact-tittle">
           <h2>
-            {' '}
             Contact <span>Me</span>
           </h2>
           <p>
@@ -64,8 +63,7 @@ const Contact = () => {
                   <input type="email" placeholder="Email" />
                   <textarea placeholder="Comment"></textarea>
                   <button type="submit" className="site-btn">
-                    {' '}
-                    Send Message{' '}
+                    Send Message
                   </button>
                 </form>
               </div>

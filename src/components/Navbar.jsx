@@ -1,7 +1,10 @@
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 import '../css/Navbar.css'
 
 const Navbar = () => {
+  const [t, i18n] = useTranslation('global')
+
   const [showMenu, setShowMenu] = useState(false)
   const [navbar, setNavbar] = useState(false)
 
@@ -12,18 +15,17 @@ const Navbar = () => {
       setNavbar(false)
     }
   }
+
   window.addEventListener('scroll', changeBackground)
 
   return (
     <>
       <nav className={navbar ? 'navbar active' : 'navbar'}>
         <a href="/">
-          {' '}
           <h1>
             Javier <span className="dot">Sanz</span> Garc&iacute;a
-          </h1>{' '}
+          </h1>
         </a>
-
         <div className={showMenu ? 'menu mobile-menu' : 'menu'}>
           <ul>
             <i
@@ -42,17 +44,19 @@ const Navbar = () => {
             <li>
               <a href="#contact"> Contact </a>
             </li>
+            <li>
+              <button onClick={() => i18n.changeLanguage('es')}>ES</button>
+              <button onClick={() => i18n.changeLanguage('en')}>EN</button>
+            </li>
           </ul>
           <a className="hire" href="#contact">
             Hire Me
           </a>
         </div>
-
         <i
           className="fa-solid fa-bars"
           onClick={() => setShowMenu(!showMenu)}
         ></i>
-
         <div className={showMenu ? 'over actived' : 'over'}></div>
       </nav>
     </>
