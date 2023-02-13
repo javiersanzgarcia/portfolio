@@ -12,8 +12,8 @@ Tecnologies used:
 - Prettier
 - Font Awesome
 
-TODO: 
+TODO:
 
 - Texts in EN/ES
 - Substitute Javier Img
-- Rephrase CV 
+- Rephrase CV
