@@ -1,4 +1,11 @@
 {
+  "menu": {
+    "home": "Home",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact",
+    "hire": "Hire Me !"
+  },
   "home": {
     "hello": "Hello !"
   }

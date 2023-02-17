@@ -56,6 +56,11 @@ nav h1 {
   letter-spacing: 0.5px;
 }
 
+.flags {
+  margin-top: 5px;
+  min-width: 100px;
+}
+
 .menu ul li a:hover {
   color: #21d190;
 }
@@ -78,6 +83,7 @@ nav h1 {
 }
 
 .menu .hire {
+  width: 168px;
   padding: 10px 30px;
   background: #21d190;
   color: white;
@@ -86,7 +92,7 @@ nav h1 {
   font-family: 'Poppins', sans-serif;
   border-radius: 5px;
   letter-spacing: 0.5px;
-  margin-left: 45px;
+  margin-left: 25px;
 }
 
 .over {

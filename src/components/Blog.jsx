@@ -12,7 +12,8 @@ const Blog = () => {
       <section className="blog" id="blog">
         <div className="blog-tittle">
           <h2>
-            Latest <span>Blog Post</span>
+            Latest
+            <span>Blog Post</span>
           </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,

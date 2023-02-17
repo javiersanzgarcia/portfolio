@@ -1,4 +1,11 @@
 {
+  "menu": {
+    "home": "Inicio",
+    "about": "Sobre mi",
+    "services": "Servicios",
+    "contact": "Contacto",
+    "hire": "Contratame !"
+  },
   "home": {
     "hello": "Hola !"
   }

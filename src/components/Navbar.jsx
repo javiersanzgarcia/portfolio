@@ -6,7 +6,7 @@ import SpainFlag from '../assets/Images/Spain.svg'
 import UkFlag from '../assets/Images/UK.svg'
 
 const Navbar = () => {
-  const { i18n } = useTranslation()
+  const { t, i18n } = useTranslation('global')
 
   const [showMenu, setShowMenu] = useState(false)
   const [navbar, setNavbar] = useState(false)
@@ -46,18 +46,18 @@ const Navbar = () => {
               onClick={() => setShowMenu(!showMenu)}
             ></i>
             <li className="first">
-              <a href="/"> Home </a>
+              <a href="/">{t('menu.home')}</a>
             </li>
             <li>
-              <a href="#about"> About </a>
+              <a href="#about">{t('menu.about')}</a>
             </li>
             <li>
-              <a href="#services"> Services </a>
+              <a href="#services">{t('menu.services')}</a>
             </li>
             <li>
-              <a href="#contact"> Contact </a>
+              <a href="#contact">{t('menu.contact')}</a>
             </li>
-            <li>
+            <li className="flags">
               <Flag
                 image={SpainFlag}
                 isSelected={selectedLanguage === 'es'}
@@ -73,7 +73,7 @@ const Navbar = () => {
             </li>
           </ul>
           <a className="hire" href="#contact">
-            Hire Me
+            {t('menu.hire')}
           </a>
         </div>
         <i
