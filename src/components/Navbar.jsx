@@ -34,9 +34,9 @@ const Navbar = () => {
   return (
     <>
       <nav className={navbar ? 'navbar active' : 'navbar'}>
-        <a href="/">
+        <a href="/portfolio">
           <h1>
-            Javier <span className="dot">Sanz</span> Garc&iacute;a
+            Javier <span className="dot">Sanz</span>
           </h1>
         </a>
         <div className={showMenu ? 'menu mobile-menu' : 'menu'}>
@@ -46,7 +46,7 @@ const Navbar = () => {
               onClick={() => setShowMenu(!showMenu)}
             ></i>
             <li className="first">
-              <a href="/">{t('menu.home')}</a>
+              <a href="/portfolio">{t('menu.home')}</a>
             </li>
             <li>
               <a href="#about">{t('menu.about')}</a>
