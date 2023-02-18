@@ -1,5 +1,5 @@
 import { useEffect } from 'react'
-import person2 from '../assets/Images/bohemian-man-with-his-arms-crossed-removebg-preview.png'
+import jsgImg from '../assets/Images/JSG.png'
 import '../CSS/About.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -15,7 +15,7 @@ const About = () => {
         <div className="about-row">
           <div data-aos="fade-right" className="about-column">
             <div className="about-pic">
-              <img src={person2} alt="Person" />
+              <img src={jsgImg} alt="Person" />
             </div>
           </div>
 

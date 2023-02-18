@@ -5,6 +5,7 @@
   position: relative;
   padding-bottom: 20px;
 }
+
 .home::before {
   content: '';
   position: absolute;
@@ -14,12 +15,14 @@
   top: 56px;
   margin: auto;
   width: 550px;
-  background-image: url('../assets/Images/bohemian-man-with-his-arms-crossed-removebg-preview.png');
+  background-image: url('../assets/Images/JSG.png');
   background-repeat: no-repeat;
 }
+
 .home-content {
   position: relative;
 }
+
 .home-content h3 {
   font-size: 45px;
   font-weight: 900;
@@ -27,6 +30,7 @@
   padding-bottom: 15px;
   color: #333333;
 }
+
 .home-content h2 {
   font-family: 'Poppins', sans-serif;
   font-family: 'Nuosu SIL', serif;
@@ -35,9 +39,11 @@
   padding-bottom: 15px;
   color: #333333;
 }
+
 .home-content h2 span {
   color: #21d190;
 }
+
 .home-content p {
   font-size: 15px;
   font-weight: 400;
@@ -46,10 +52,12 @@
   color: #333333;
   line-height: 30px;
 }
+
 .social {
   margin-top: 30px;
   position: relative;
 }
+
 .social a i {
   width: 50px;
   height: 50px;
@@ -62,10 +70,12 @@
   color: #21d190;
   margin: 0 5px 0 0;
 }
+
 .port-btn {
   margin-top: 40px;
   cursor: pointer;
 }
+
 .port-btn a {
   color: white;
   font-size: 15px;
@@ -75,13 +85,16 @@
   background: #21d190;
   border: 2px solid #21d190;
 }
+
 @media screen and (max-width: 984px) {
   .home {
     padding-top: 10rem;
   }
+
   .home-content p {
     width: 60%;
   }
+
   .home::before {
     right: 0;
     top: 20px;
@@ -91,45 +104,56 @@
     display: none;
   }
 }
+
 @media screen and (max-width: 768px) {
   .home {
     padding-left: 3rem;
     padding-bottom: 6rem;
     height: 100%;
   }
+
   .home::before {
     display: none;
   }
+
   .home-content h3 {
     font-size: 40px;
   }
+
   .home-content p {
     width: 80%;
   }
 }
+
 @media screen and (max-width: 550px) {
   .home {
     padding-left: 2rem;
     padding-right: 1rem;
   }
+
   .home-content h2 {
     font-size: 45px;
   }
+
   .home-content p {
     width: 100%;
   }
 }
+
 @media screen and (max-width: 360px) {
   .home {
     padding-left: 1rem;
     padding-right: 1rem;
   }
+
   .home-content h3 {
     font-size: 30px;
   }
+
   .home-content h2 {
     font-size: 35px;
   }
+
   .social a i {
     width: 40px;
     height: 40px;
