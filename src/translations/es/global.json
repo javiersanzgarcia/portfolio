@@ -7,6 +7,9 @@
     "hire": "Contratame!"
   },
   "home": {
-    "hello": "Hola !"
+    "hello": "Hola !",
+    "iam": "Soy",
+    "resume": "Programador con más de 15 años de experiencia, principalmente orientado a entornos web y especializado en React y Liferay",
+    "linkedin": "https://www.linkedin.com/in/javier-sanz-garc%C3%ADa"
   }
 }
