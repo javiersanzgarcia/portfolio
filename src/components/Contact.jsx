@@ -1,5 +1,5 @@
 import React, { Fragment, useEffect } from 'react'
-import '../CSS/Contact.css'
+import '../css/Contact.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 

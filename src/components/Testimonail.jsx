@@ -1,5 +1,5 @@
 import React, { Fragment, useState } from 'react'
-import '../CSS/Testimonail.css'
+import '../css/Testimonail.css'
 
 const Testimonial = () => {
   const [toggleTab, setToggleTab] = useState(2)

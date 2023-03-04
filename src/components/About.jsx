@@ -1,6 +1,6 @@
 import { useEffect } from 'react'
 import jsgImg from '../assets/Images/JSG.png'
-import '../CSS/About.css'
+import '../css/About.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 
