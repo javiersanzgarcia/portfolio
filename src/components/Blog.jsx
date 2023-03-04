@@ -1,11 +1,11 @@
 import React, { Fragment, useState } from 'react'
 import person from '../assets/Images/bohemian-man-with-his-arms-crossed-removebg-preview.png'
 import Data from './BlogData'
-import '../CSS/Blog.css'
+import '../css/Blog.css'
 
 const Blog = () => {
   // eslint-disable-next-line no-unused-vars
-  const [items, setItems] = useState(Data)
+  const [items] = useState(Data)
 
   return (
     <Fragment>
