@@ -28,18 +28,15 @@ const About = () => {
                 </h2>
               </div>
               <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minus
-                officia natus adipisci debitis deleniti est odio, distinctio
-                fugiat esse quaerat excepturi aut deserunt ducimus corrupti
-                veritatis blanditiis praesentium labore nobis fugit non tenetur
-                fuga repellat. Delectus labore id quos magnam.
+                I’m a programmer with more of 15 years experience, mainly
+                oriented to web environment and specialized in Java for Backend
+                (Liferay mostly) and React for Frontend
               </p>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nisi
-                magnam totam voluptates eum? Doloribus, labore laboriosam
-                assumenda natus reprehenderit fuga
-              </p>
-              <a href="#" className="learn-btn">
+              <a
+                href="/portfolio/src/assets/Resume.pdf"
+                target="_blank"
+                className="learn-btn"
+              >
                 Download CV
               </a>
             </div>

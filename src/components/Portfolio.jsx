@@ -34,8 +34,8 @@ const Portfolio = () => {
             <li onClick={() => filterItem('Designing')}>
               <a className="img-filter">Designing</a>
             </li>
-            <li onClick={() => filterItem('frontend')}>
-              <a className="img-filter">frontend</a>
+            <li onClick={() => filterItem('Frontend')}>
+              <a className="img-filter">Frontend</a>
             </li>
             <li onClick={() => filterItem('Backend')}>
               <a className="img-filter">Backend</a>
