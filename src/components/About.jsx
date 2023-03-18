@@ -1,5 +1,6 @@
 import { useEffect } from 'react'
 import jsgImg from '../assets/Images/JSG.png'
+import jsgCV from '../assets/Resume.pdf'
 import '../css/About.css'
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -32,11 +33,7 @@ const About = () => {
                 oriented to web environment and specialized in Java for Backend
                 (Liferay mostly) and React for Frontend
               </p>
-              <a
-                href="/portfolio/src/assets/Resume.pdf"
-                target="_blank"
-                className="learn-btn"
-              >
+              <a href={jsgCV} target="_blank" className="learn-btn">
                 Download CV
               </a>
             </div>
