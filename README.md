@@ -13,8 +13,3 @@ Tecnologies used:
 - Font Awesome
 - i18n (For manage language support)
 
-TODO:
-
-- Texts in EN/ES
-- Substitute Javier Img
-- Rephrase CV

@@ -11,5 +11,11 @@
     "iam": "I am",
     "resume": "Programmer with more of 15 years experience, mainly oriented to web environment and specialized in React and Liferay",
     "linkedin": "https://www.linkedin.com/in/javier-sanz-garc%C3%ADa/?locale=en_US"
+  },
+  "about": {
+    "title": "about me",
+    "hail": "Hi, My Name Is",
+    "text": "I’m a programmer with more of 15 years experience, mainly oriented to web environment and specialized in Java for Backend (Liferay mostly) and React for Frontend",
+    "button": "download cv"
   }
 }

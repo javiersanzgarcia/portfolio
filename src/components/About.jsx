@@ -1,4 +1,5 @@
 import { useEffect } from 'react'
+import { useTranslation } from 'react-i18next'
 import jsgImg from '../assets/Images/JSG.png'
 import jsgCV from '../assets/Resume.pdf'
 import '../css/About.css'
@@ -6,6 +7,8 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 
 const About = () => {
+  const { t } = useTranslation('global')
+
   useEffect(() => {
     Aos.init({ duration: 2000, once: true, easing: 'ease' })
   })
@@ -23,18 +26,14 @@ const About = () => {
           <div data-aos="fade-left" className="about-column">
             <div className="about-text">
               <div className="about-tittle">
-                <span className="span">About me</span>
+                <span className="span">{t('about.title')}</span>
                 <h2>
-                  Hi, My Name Is <span> Javier Sanz </span>
+                  {t('about.hail')} <span> Javier Sanz </span>
                 </h2>
               </div>
-              <p>
-                I’m a programmer with more of 15 years experience, mainly
-                oriented to web environment and specialized in Java for Backend
-                (Liferay mostly) and React for Frontend
-              </p>
+              <p>{t('about.text')}</p>
               <a href={jsgCV} target="_blank" className="learn-btn">
-                Download CV
+                {t('about.button')}
               </a>
             </div>
           </div>
