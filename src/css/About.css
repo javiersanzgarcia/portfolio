@@ -83,7 +83,6 @@
   font-family: 'Poppins', sans-serif;
 }
 
-
 @media screen and (max-width: 1440px) {
   .about-row {
     display: flex;
@@ -97,7 +96,7 @@
   }
 
   .about-pic img {
-    width:80%;
+    width: 80%;
   }
 
   .about-row .about-column {

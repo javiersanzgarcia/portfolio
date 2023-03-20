@@ -17,5 +17,45 @@
     "hail": "Hi, My Name Is",
     "text": "I’m a programmer with more of 15 years experience, mainly oriented to web environment and specialized in Java for Backend (Liferay mostly) and React for Frontend",
     "button": "download cv"
+  },
+  "resume": {
+    "title": "My Last Experience",
+    "jobs": [
+      {
+        "timeJob": "04/2022 - Present",
+        "position": "Frontend Technical Lead",
+        "skills": [
+          "Mentor and guide the development of junior engineers",
+          "Drive development practices used within the team",
+          "Resolve bugs and improve system performance",
+          "Work closely with engineers to architect and develop the best      technical design and approach"
+        ]
+      },
+      {
+        "timeJob": "03/2021 - 03/2022",
+        "position": "Senior Liferay Developer",
+        "skills": [
+          "Lead Supply Chain development department",
+          "Generate ideas with team members and offering solutions",
+          "Staying up to date with new technology and teaching other developers how to incorporate new trends"
+        ]
+      },
+      {
+        "timeJob": "07/2020 - 02/2021",
+        "position": "React Developer",
+        "skills": [
+          "Maintaining an understanding web applications and programming practices",
+          "Conferring with team to resolve conflicts, prioritize needs, develop content criteria, or choose solutions"
+        ]
+      },
+      {
+        "timeJob": "07/2018 - 06/2020",
+        "position": "Senior Liferay Developer",
+        "skills": [
+          "Accomplishes engineering and organization mission by completing related results as needed",
+          "Supports and develops software engineers providing advice, coaching, and educational opportunities"
+        ]
+      }
+    ]
   }
 }

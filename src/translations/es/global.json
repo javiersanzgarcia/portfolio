@@ -17,5 +17,45 @@
     "hail": "Hola, Mi Nombre Es",
     "text": "Soy programador con más de 15 años de experiencia, principalmente orientado a entornos web y especializado en Java para Backend (Liferay mayormente) y React para Frontend",
     "button": "descargar cv"
+  },
+  "resume": {
+    "title": "Mi Última Experiencia",
+    "jobs": [
+      {
+        "timeJob": "04/2022 - Present",
+        "position": "Líder Técnico Frontend",
+        "skills": [
+          "Mentorizar y guiar el desarrollo de ingenieros junior",
+          "Dirigir las practicas de desarrollo usadas con el equipo",
+          "Resolución de bugs y mejora de rendimiento en el sistema",
+          "Trabajar con el equipo de arquitectura y desarrollar el mejor diseño técnico"
+        ]
+      },
+      {
+        "timeJob": "03/2021 - 03/2022",
+        "position": "Desarrollador Senior Liferay",
+        "skills": [
+          "Lider del departamento de Desarrollo de cadena de suministro",
+          "Generar ideas con los miembros del equipo y ofrecer soluciones",
+          "Mantenerse actualizado con las nuevas tecnologías y enseñar al resto de desarrolladores cómo incorporar nuevas tendencias"
+        ]
+      },
+      {
+        "timeJob": "07/2020 - 02/2021",
+        "position": "Desarrollador React",
+        "skills": [
+          "Comprensión y mantenimiento de las aplicaciones web y las prácticas de programación",
+          "Conferenciar con el equipo para resolver conflictos, priorizar necesidades, desarrollar criterios de contenido o elegir soluciones"
+        ]
+      },
+      {
+        "timeJob": "07/2018 - 06/2020",
+        "position": "Desarrollador Senior Liferay",
+        "skills": [
+          "Cumplir tareas tecnicas y organizativas al desarrollar resultados de forma agil y coherente",
+          "Apoyo y desarrollo de ingenieros no expertos, brindando asesoramiento, capacitación y oportunidades educativas"
+        ]
+      }
+    ]
   }
 }
