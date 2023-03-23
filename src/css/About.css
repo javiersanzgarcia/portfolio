@@ -1,3 +1,9 @@
+.lineLeft {
+  height: 3px;
+  width: 82px;
+  background-color: #21d190;
+}
+
 .about {
   overflow: hidden;
   padding: 6rem 2rem 3rem 2rem;
@@ -48,16 +54,6 @@
 
 .about-tittle h2 span {
   color: #21d190;
-}
-
-.about-text h2::before {
-  content: '';
-  position: absolute;
-  top: 100%;
-  left: 0;
-  height: 3px;
-  width: 82px;
-  background-color: #21d190;
 }
 
 .about-text p {

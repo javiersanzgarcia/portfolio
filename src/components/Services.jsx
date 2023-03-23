@@ -14,8 +14,7 @@ const Services = () => {
       <section className="services" id="services">
         <div data-aos="zoom-in" className="ser-tittle">
           <h2>
-            {' '}
-            MY <span> SERVICES </span>{' '}
+            MY <span> SERVICES </span>
           </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
@@ -28,8 +27,7 @@ const Services = () => {
           <div data-aos="fade-up-left" className="ser-col">
             <div className="single-ser">
               <span className="ico-area">
-                {' '}
-                <i className="fa-solid fa-camera"></i>{' '}
+                <i className="fa-solid fa-camera" />
               </span>
               <div className="service-desc">
                 <h2>Photoshope</h2>
@@ -41,27 +39,10 @@ const Services = () => {
             </div>
           </div>
 
-          <div data-aos="fade-down" className="ser-col">
-            <div className="single-ser">
-              <span className="ico-area">
-                {' '}
-                <i className="fa-solid fa-magnifying-glass-dollar"></i>{' '}
-              </span>
-              <div className="service-desc">
-                <h2>Photographer</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestiae, facere.
-                </p>
-              </div>
-            </div>
-          </div>
-
           <div data-aos="fade-up-right" className="ser-col">
             <div className="single-ser">
               <span className="ico-area">
-                {' '}
-                <i className="fa-solid fa-laptop"></i>{' '}
+                <i className="fa-solid fa-laptop" />
               </span>
               <div className="service-desc">
                 <h2>Frontend</h2>
@@ -88,28 +69,13 @@ const Services = () => {
             </div>
           </div>
 
-          <div data-aos="fade-up" className="ser-col">
-            <div className="single-ser">
-              <span className="ico-area">
-                <i className="fa-solid fa-pen-nib"></i>{' '}
-              </span>
-              <div className="service-desc">
-                <h2>Designer</h2>
-                <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                  Molestiae, facere.
-                </p>
-              </div>
-            </div>
-          </div>
-
           <div data-aos="fade-up-right" className="ser-col">
             <div className="single-ser">
               <span className="ico-area">
-                <i className="fa-solid fa-code"></i>
+                <i className="fa-solid fa-pen-nib" />
               </span>
               <div className="service-desc">
-                <h2>Full Stack</h2>
+                <h2>Designer</h2>
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit.
                   Molestiae, facere.

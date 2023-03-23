@@ -27,9 +27,7 @@ const About = () => {
             <div className="about-text">
               <div className="about-tittle">
                 <span className="span">{t('about.title')}</span>
-                <h2>
-                  {t('about.hail')} <span> Javier Sanz </span>
-                </h2>
+                <div className="lineLeft" />
               </div>
               <p>{t('about.text')}</p>
               <a href={jsgCV} target="_blank" className="learn-btn">
