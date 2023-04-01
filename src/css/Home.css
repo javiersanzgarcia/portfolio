@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 984px) {
   .home {
-    padding-top: 10rem;
+    padding-top: 5rem;
   }
 
   .home-content p {
@@ -108,7 +108,7 @@
 @media screen and (max-width: 768px) {
   .home {
     padding-left: 3rem;
-    padding-bottom: 6rem;
+    padding-bottom: 1rem;
     height: 100%;
   }
 
