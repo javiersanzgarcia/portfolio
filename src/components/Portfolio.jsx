@@ -1,64 +1,60 @@
-import { useState } from 'react'
-import '../CSS/Portfolio.css'
-import Menu from './PortData'
+import React, { Fragment, useState } from 'react'
+import person from '../assets/Images/JSG.png'
+import Data from './PortfolioData'
+import '../css/Portfolio.css'
 
-const Portfolio = () => {
-  const [items, setItems] = useState(Menu)
-
-  const filterItem = (categItem) => {
-    const updatedItems = Menu.filter((cureElem) => {
-      return cureElem.category === categItem
-    })
-    setItems(updatedItems)
-  }
+export const Portfolio = () => {
+  // eslint-disable-next-line no-unused-vars
+  const [items] = useState(Data)
 
   return (
-    <>
-      <section className="portfolio" id="portfolio">
-        <div className="port-tittle">
+    <Fragment>
+      <section className="blog" id="blog">
+        <div className="blog-tittle">
           <h2>
-            my <span>works</span>
+            Latest
+            <span>Blog Post</span>
           </h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
             temporibus consequuntur dicta ullam illo facere.
           </p>
-          <div className="port-line"></div>
+          <div className="blog-line"></div>
         </div>
 
-        <div className="nav">
-          <ul className="nav-list">
-            <li onClick={() => setItems(Menu)}>
-              <a className="img-filter active">All</a>
-            </li>
-            <li onClick={() => filterItem('Designing')}>
-              <a className="img-filter">Designing</a>
-            </li>
-            <li onClick={() => filterItem('Frontend')}>
-              <a className="img-filter">Frontend</a>
-            </li>
-            <li onClick={() => filterItem('Backend')}>
-              <a className="img-filter">Backend</a>
-            </li>
-            <li onClick={() => filterItem('Seo')}>
-              <a className="img-filter">Seo</a>
-            </li>
-          </ul>
-        </div>
-
-        <div className="port-row">
+        <div className="blog-row">
           {items.map((elem) => {
             return (
-              <div className="port-col" key={elem.id}>
-                <div className="project-item">
-                  <a className="zoom1" href="#">
-                    <img alt="" src={elem.image} />
-                    <div className="overlay">
-                      <div className="overlay-inner">
-                        <h4>{elem.heading}</h4>
-                        <p>{elem.paragrapgh}</p>
-                      </div>
+              <div className="blog-col" key={elem.id}>
+                <div className="blog-img">
+                  <img className="imge" src={elem.image} alt="" />
+                  <div className="img-tag">
+                    <h3 className="s-text">{elem.img_tag}</h3>
+                  </div>
+                  <div className="auther">
+                    <div className="auther-img">
+                      <img src={person} alt="auther" />
                     </div>
+                    <div className="auther-name">
+                      <span>By Tim David</span>
+                    </div>
+                  </div>
+                </div>
+                <div className="post-content">
+                  <p>
+                    <span>Date:</span> <i className="fa fa-clock-o"></i>
+                    {elem.date}
+                  </p>
+                  <div className="post-title">
+                    <a href="single.html">
+                      <h4>{elem.heading}</h4>
+                    </a>
+                  </div>
+                  <div className="post-text">
+                    <p>{elem.paragrapgh}</p>
+                  </div>
+                  <a href="single.html" className="post-more">
+                    Read more <i className="fa fa-angle-double-right"></i>
                   </a>
                 </div>
               </div>
@@ -66,8 +62,7 @@ const Portfolio = () => {
           })}
         </div>
       </section>
-    </>
+    </Fragment>
   )
 }
 
-export default Portfolio

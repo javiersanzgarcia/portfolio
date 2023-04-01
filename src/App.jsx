@@ -1,12 +1,11 @@
+import Navbar from './components/Navbar'
 import Home from './components/Home'
 import About from './components/About'
-// import Portfolio from './components/Portfolio'
-import Contact from './components/Contact'
-// import Blog from './components/Blog'
 import Resume from './components/Resume'
 import Services from './components/Services'
 import Testimonail from './components/Testimonail'
-import Navbar from './components/Navbar'
+import { Portfolio } from './components/Portfolio'
+import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
 
@@ -19,8 +18,7 @@ const App = () => {
       <Resume />
       <Services />
       <Testimonail />
-      {/*  <Portfolio /> */}
-      {/*  <Blog /> */}
+      <Portfolio />
       <Contact />
       <Footer />
     </>
