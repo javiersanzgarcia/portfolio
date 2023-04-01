@@ -57,5 +57,32 @@
         ]
       }
     ]
+  },
+  "services": {
+    "title1": "MY",
+    "title2": "SERVICES",
+    "subtitle": "What I Do",
+    "services": [
+      {
+        "title": "FrontEnd Development",
+        "text": "Javascript/TypeScript development specialized in React",
+        "icon": "fa-laptop"
+      },
+      {
+        "title": "BackEnd Development",
+        "text": "Java development specialized in Liferay or Express",
+        "icon": "fa-server"
+      },
+      {
+        "title": "FullStack Development",
+        "text": "Development and support with Liferay, Java//React or Node/Express/React",
+        "icon": "fa-code"
+      },
+      {
+        "title": "Tech Lead",
+        "text": "Lead and mentor software developers",
+        "icon": "fa-user"
+      }
+    ]
   }
 }

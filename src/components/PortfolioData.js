@@ -1,7 +1,7 @@
 const Data = [
   {
     id: 1,
-    image: 'BlogImages/pexels-moose-photos-1037993.jpg',
+    image: '',
     img_tag: 'Designing',
     heading: 'Top Graphic Design Resources',
     date: 'January 9, 2023',
@@ -10,7 +10,7 @@ const Data = [
   },
   {
     id: 2,
-    image: 'BlogImages/pexels-picjumbocom-196644.jpg',
+    image: '',
     img_tag: 'Designing',
     heading: 'Top Web Design Topic',
     date: 'January 9, 2023',
@@ -19,7 +19,7 @@ const Data = [
   },
   {
     id: 3,
-    image: 'BlogImages/laptop-gbedf0e9f9_1280.jpg',
+    image: '',
     img_tag: 'Frontend',
     heading: 'CSS3 Background Animation',
     date: 'January 15, 2023',

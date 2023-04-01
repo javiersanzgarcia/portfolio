@@ -31,14 +31,6 @@ export const Portfolio = () => {
                   <div className="img-tag">
                     <h3 className="s-text">{elem.img_tag}</h3>
                   </div>
-                  <div className="auther">
-                    <div className="auther-img">
-                      <img src={person} alt="auther" />
-                    </div>
-                    <div className="auther-name">
-                      <span>By Tim David</span>
-                    </div>
-                  </div>
                 </div>
                 <div className="post-content">
                   <p>
@@ -65,4 +57,3 @@ export const Portfolio = () => {
     </Fragment>
   )
 }
-

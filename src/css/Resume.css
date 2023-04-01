@@ -4,7 +4,7 @@ span.textLeft {
 }
 
 .resume {
-  padding: 3rem 6rem 2rem 6rem;
+  padding: 1rem 6rem 1rem 6rem;
   overflow: hidden;
 }
 
@@ -144,7 +144,7 @@ span.textLeft {
 
 @media screen and (max-width: 900px) {
   .resume {
-    padding: 2rem 2rem 3rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     overflow: hidden;
   }
 
@@ -195,7 +195,7 @@ span.textLeft {
 
 @media screen and (min-width: 1300px) {
   .resume {
-    padding: 2rem 2rem 3rem 2rem;
+    padding: 1rem 2rem 1rem 2rem;
     overflow: hidden;
   }
 

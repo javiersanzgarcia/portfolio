@@ -1,5 +1,5 @@
 .testimonial {
-  padding: 5rem 4rem 2rem 4rem;
+  padding: 1rem 4rem 1rem 4rem;
   background: #f8f8f8;
 }
 .testi-tittle {
@@ -102,7 +102,7 @@
 }
 @media screen and (max-width: 768px) {
   .testimonial {
-    padding: 5rem 1rem 2rem 1rem;
+    padding: 1rem 1rem 1rem 1rem;
     background: #f8f8f8;
   }
   .testi-tittle p {
