@@ -61,7 +61,7 @@
   "services": {
     "title1": "MY",
     "title2": "SERVICES",
-    "subtitle": "What I Do",
+    "description": "That are some of the services that I offer to provide",
     "services": [
       {
         "title": "FrontEnd Development",
@@ -80,7 +80,7 @@
       },
       {
         "title": "Tech Lead",
-        "text": "Lead and mentor software developers",
+        "text": "Drive Development, Technical Lead and Guidance for software developers",
         "icon": "fa-user"
       }
     ]
