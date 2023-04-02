@@ -1,24 +1,38 @@
-import React, { Fragment, useEffect } from 'react'
-import '../css/Contact.css'
+import React, { Fragment, useEffect, useRef } from 'react'
+import { useTranslation } from 'react-i18next'
+import emailjs from '@emailjs/browser'
 import Aos from 'aos'
+import '../css/Contact.css'
 import 'aos/dist/aos.css'
 
 const Contact = () => {
+  const form = useRef()
+  const { t } = useTranslation('global')
+
   useEffect(() => {
     Aos.init({ duration: 2000, once: true, easing: 'ease' })
   })
+  const sendEmail = (e) => {
+    e.preventDefault()
+    emailjs
+      .sendForm(
+        'service_r6i2l0w',
+        'template_ermu9rk',
+        form.current,
+        'CfeHukVtf4oPql74O'
+      )
+      .then(() => form.current.reset())
+    alert('Email sent')
+  }
 
   return (
     <Fragment>
       <section className="contact" id="contact">
         <div data-aos="zoom-in" className="contact-tittle">
           <h2>
-            Contact <span>Me</span>
+            <span>{t('contact.title')}</span>
           </h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
-            temporibus consequuntur dicta ullam illo facere.
-          </p>
+          <p>{t('contact.description')}</p>
           <div className="contact-line"></div>
         </div>
 
@@ -28,42 +42,53 @@ const Contact = () => {
               <div className="contact-widget">
                 <div className="contact-widget-item">
                   <div className="icon">
-                    <i className="fa-solid fa-location-dot"></i>
+                    <i className="fa-solid fa-envelope"></i>
                   </div>
                   <div className="contact-text">
-                    <h5>Address</h5>
-                    <p>20 W 34th St., New York, NY 10001, United States</p>
+                    <h5>Email</h5>
+                    <p>pracker@gmaill.com</p>
                   </div>
                 </div>
                 <div className="contact-widget-item">
+                  <a href="https://github.com/javiersanzgarcia" target="_blank">
+                    <div className="icon">
+                      <i className="fa fa-github"></i>
+                    </div>
+                    <div className="contact-text">
+                      <h5>Github</h5>
+                      <p>github.com/javiersanzgarcia</p>
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div className="contact-widget-item">
+                <a href={t('home.linkedin')} target="_blank">
                   <div className="icon">
-                    <i className="fa-solid fa-phone"></i>
+                    <i className="fa fa-linkedin"></i>
                   </div>
                   <div className="contact-text">
-                    <h5>Contact Us</h5>
-                    <p>125-711-811 | 125-668-886</p>
+                    <h5>Linkedin</h5>
+                    <p>linkedin.com/javier-sanz-garcía</p>
                   </div>
-                </div>
-                <div className="contact-widget-item">
-                  <div className="icon">
-                    <i className="fa-regular fa-envelope"></i>
-                  </div>
-                  <div className="contact-text">
-                    <h5>Mail</h5>
-                    <p>your.support@gmail.com</p>
-                  </div>
-                </div>
+                </a>
               </div>
             </div>
 
             <div data-aos="fade-left" className="contact-column">
               <div className="contact-form">
-                <form action="#">
-                  <input type="text" placeholder="Name" />
-                  <input type="email" placeholder="Email" />
-                  <textarea placeholder="Comment"></textarea>
+                <form ref={form} onSubmit={sendEmail}>
+                  <input
+                    type="text"
+                    name="name"
+                    placeholder={t('contact.form.name')}
+                  />
+                  <input type="email" name="email_from" placeholder="Email" />
+                  <textarea
+                    name="message"
+                    placeholder={t('contact.form.comment')}
+                  ></textarea>
                   <button type="submit" className="site-btn">
-                    Send Message
+                    {t('contact.form.button')}
                   </button>
                 </form>
               </div>

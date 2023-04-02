@@ -12,6 +12,7 @@
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
   },
   "dependencies": {
+    "@emailjs/browser": "^3.10.0",
     "aos": "2.3.4",
     "i18next": "22.4.9",
     "i18next-browser-languagedetector": "7.0.1",

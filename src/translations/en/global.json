@@ -84,5 +84,38 @@
         "icon": "fa-user"
       }
     ]
+  },
+  "portfolio": {
+    "title": "My Portfolio",
+    "description": "Here you can see some of the projects that I have worked on in my free time",
+    "projects": [
+      {
+        "title": "Liferay Portal",
+        "description": "Liferay Portal is an enterprise portal platform developed by Liferay, Inc. It is a Java-based web application server that runs on a servlet container such as Apache Tomcat or Oracle WebLogic Server. It is a content management system (CMS) and web application framework that can be used to build websites, intranets, and extranets.",
+        "image": "liferay.png",
+        "url": "https://www.liferay.com/"
+      },
+      {
+        "title": "Liferay Digital Experience Platform",
+        "description": "Liferay Digital Experience Platform is a complete digital experience platform that helps you create exceptional digital experiences. It is the only solution that unifies content, experience, and commerce on one platform to deliver personalized interactions at scale.",
+        "image": "liferay.png",
+        "url": "https://www.liferay.com/products/dxp"
+      },
+      {
+        "title": "Liferay Commerce",
+        "description": "Liferay Commerce is a complete commerce platform that helps you sell more and sell better. It is the only solution that unifies content, experience, and commerce on one platform to deliver personalized interactions at scale.",
+        "image": "liferay.png",
+        "url": "https://www.liferay.com/products/commerce"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "description": "If you have any questions or you want to work with me, don´t hesitate to contact me",
+    "form": {
+      "name": "Name",
+      "comment": "Comment",
+      "button": "Send Message"
+    }
   }
 }

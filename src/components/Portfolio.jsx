@@ -4,17 +4,13 @@ import Data from './PortfolioData'
 import '../css/Portfolio.css'
 
 export const Portfolio = () => {
-  // eslint-disable-next-line no-unused-vars
   const [items] = useState(Data)
 
   return (
     <Fragment>
       <section className="blog" id="blog">
         <div className="blog-tittle">
-          <h2>
-            Latest
-            <span>Blog Post</span>
-          </h2>
+          <h2>Portfolio</h2>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
             temporibus consequuntur dicta ullam illo facere.
