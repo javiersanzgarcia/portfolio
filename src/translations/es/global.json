@@ -117,5 +117,8 @@
       "comment": "Asunto",
       "button": "Enviar Mensaje"
     }
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados por"
   }
 }

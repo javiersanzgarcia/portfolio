@@ -117,5 +117,8 @@
       "comment": "Comment",
       "button": "Send Message"
     }
+  },
+  "footer": {
+    "rights": "All rights reserved by"
   }
 }
