@@ -6,10 +6,10 @@ Tecnologies used:
 
 - React (with Javascript)
 - Vite
-- SWC
 - Node
 - Eslint
 - Prettier
 - Font Awesome
 - i18n (For manage language support)
+- emailjs
 
