@@ -1,48 +1,47 @@
-import React, { Fragment, useState } from 'react'
-import person from '../assets/Images/JSG.png'
-import Data from './PortfolioData'
+import React from 'react'
+import { useTranslation } from 'react-i18next'
+
 import '../css/Portfolio.css'
 
 export const Portfolio = () => {
-  const [items] = useState(Data)
+  const { t } = useTranslation('global')
+  const items = t('portfolio.projects', { returnObjects: true })
 
   return (
-    <Fragment>
+    <>
       <section className="blog" id="blog">
         <div className="blog-tittle">
-          <h2>Portfolio</h2>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius,
-            temporibus consequuntur dicta ullam illo facere.
-          </p>
+          <h2>{t('portfolio.title')}</h2>
+          <p>{t('portfolio.description')}</p>
           <div className="blog-line"></div>
         </div>
 
         <div className="blog-row">
-          {items.map((elem) => {
+          {items.map((item) => {
             return (
-              <div className="blog-col" key={elem.id}>
+              <div className="blog-col" key={item.title}>
                 <div className="blog-img">
-                  <img className="imge" src={elem.image} alt="" />
+                  <img
+                    className="imge"
+                    src={item.image}
+                    alt={item.description}
+                  />
                   <div className="img-tag">
-                    <h3 className="s-text">{elem.img_tag}</h3>
+                    <h3 className="s-text">{item.category}</h3>
                   </div>
                 </div>
                 <div className="post-content">
-                  <p>
-                    <span>Date:</span> <i className="fa fa-clock-o"></i>
-                    {elem.date}
-                  </p>
                   <div className="post-title">
-                    <a href="single.html">
-                      <h4>{elem.heading}</h4>
+                    <a href={item.url1}>
+                      <h4>{item.title}</h4>
                     </a>
                   </div>
                   <div className="post-text">
-                    <p>{elem.paragrapgh}</p>
+                    <p>{item.description}</p>
                   </div>
-                  <a href="single.html" className="post-more">
-                    Read more <i className="fa fa-angle-double-right"></i>
+                  <a href={item.url2} className="post-more">
+                    {t('portfolio.readme')}{' '}
+                    <i className="fa fa-angle-double-right"></i>
                   </a>
                 </div>
               </div>
@@ -50,6 +49,6 @@ export const Portfolio = () => {
           })}
         </div>
       </section>
-    </Fragment>
+    </>
   )
 }

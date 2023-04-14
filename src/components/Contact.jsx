@@ -46,7 +46,7 @@ const Contact = () => {
                   </div>
                   <div className="contact-text">
                     <h5>Email</h5>
-                    <p>pracker@gmaill.com</p>
+                    <p>pracker@gmail.com</p>
                   </div>
                 </div>
                 <div className="contact-widget-item">
