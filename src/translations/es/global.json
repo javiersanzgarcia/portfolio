@@ -94,7 +94,7 @@
         "title": "Neovim",
         "category": "FullStack",
         "description": "Configuración personal Neovim y disponible para la comunidad",
-        "image": "/portfolio/src/assets/Images/Nvim.jpg",
+        "image": "Nvim.jpg",
         "url1": "https://github.com/javiersanzgarcia/nvim",
         "url2": "https://github.com/javiersanzgarcia/nvim"
       },
@@ -102,7 +102,7 @@
         "title": "Portfolio",
         "category": "FrontEnd",
         "description": "Portfolio personal para mostrar mis proyectos y experiencia",
-        "image": "/portfolio/src/assets/Images/Portfolio.jpg",
+        "image": "Portfolio.jpg",
         "url1": "https://javiersanzgarcia.github.io/portfolio/",
         "url2": "https://github.com/javiersanzgarcia/portfolio"
       },
@@ -110,7 +110,7 @@
         "title": "Travel Agency",
         "description": "Travel Agency es una página web que está construida usando HTML, CSS y JavaScript. Este sitio es completamente responsivo y funciona bien en todos los dispositivos",
         "category": "FrontEnd",
-        "image": "/portfolio/src/assets/Images/Travel_Agency.jpg",
+        "image": "Travel_Agency.jpg",
         "url1": "https://javiersanzgarcia.github.io/TravelAgency",
         "url2": "https://github.com/javiersanzgarcia/TravelAgency"
       },
@@ -118,7 +118,7 @@
         "title": "Liferay Training",
         "category": "FullStack",
         "description": "Entrenamiento en Liferay que unifica Devops, Backend and Frontend",
-        "image": "/portfolio/src/assets/Images/Liferay_Training.jpg",
+        "image": "Liferay_Training.jpg",
         "url1": "https://github.com/javiersanzgarcia/Liferay-training",
         "url2": "https://github.com/javiersanzgarcia/Liferay-training"
       },

@@ -1,17 +1,11 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
 import '../css/Portfolio.css'
-import nVim from '../assets/Images/Nvim.jpg'
-
-const images = [nVim]
+import { getImgURL } from '../utils/images'
 
 export const Portfolio = () => {
   const { t } = useTranslation('global')
   const items = t('portfolio.projects', { returnObjects: true })
-
-  const getImgURL = (img) => {
-    return images.find((image) => image.includes(img))
-  }
 
   return (
     <>
@@ -25,7 +19,7 @@ export const Portfolio = () => {
         <div className="blog-row">
           {items.map((item) => {
             return (
-              <div className="blog-col" key={item.title}>
+              <div key={item.title} className="blog-col">
                 <div className="blog-img">
                   <img
                     className="image"
@@ -38,7 +32,11 @@ export const Portfolio = () => {
                 </div>
                 <div className="post-content">
                   <div className="post-title">
-                    <a href={item.url1} target="_blank">
+                    <a
+                      href={item.url1}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
                       <h4>{item.title}</h4>
                     </a>
                   </div>
