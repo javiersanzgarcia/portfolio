@@ -87,7 +87,7 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "description": "Aquí puedes ver algunos de los proyectos que realizo en mi tiempo libre",
+    "description": "Here you can se of my personal projects that I do in my free time",
     "readme": "Read more",
     "projects": [
       {
@@ -101,26 +101,26 @@
       {
         "title": "Portfolio",
         "category": "FrontEnd",
-        "description": "Liferay Digital Experience Platform is a complete digital experience platform that helps you create exceptional digital experiences. It is the only solution that unifies content, experience, and commerce on one platform to deliver personalized interactions at scale.",
+        "description": "Personal portfolio to show my projects and experience",
         "image": "/portfolio/src/assets/Images/Portfolio.jpg",
-        "url1": "https://github.com/javiersanzgarcia/portfolio",
-        "url2": "https://javiersanzgarcia.github.io/portfolio/"
-      },
-      {
-        "title": "Liferay Training",
-        "category": "FullStack",
-        "description": "Liferay Digital Experience Platform is a complete digital experience platform that helps you create exceptional digital experiences. It is the only solution that unifies content, experience, and commerce on one platform to deliver personalized interactions at scale.",
-        "image": "liferay.png",
-        "url1": "https://www.liferay.com/products/dxp",
-        "url2": "https://github.com/javiersanzgarcia/Liferay-training"
+        "url1": "https://javiersanzgarcia.github.io/portfolio/",
+        "url2": "https://github.com/javiersanzgarcia/portfolio"
       },
       {
         "title": "Travel Agency",
         "category": "FrontEnd",
-        "description": "Liferay Digital Experience Platform is a complete digital experience platform that helps you create exceptional digital experiences. It is the only solution that unifies content, experience, and commerce on one platform to deliver personalized interactions at scale.",
-        "image": "liferay.png",
-        "url1": "https://www.liferay.com/products/dxp",
-        "url2": "https://javiersanzgarcia.github.io/TravelAgency/#/"
+        "description": "Travel Agency is a website that is built using HTML, CSS and JavaScript. The website is fully responsive and works well on all devices.",
+        "image": "/portfolio/src/assets/Images/Travel_Agency.jpg",
+        "url1": "https://javiersanzgarcia.github.io/TravelAgency",
+        "url2": "https://github.com/javiersanzgarcia/TravelAgency"
+      },
+      {
+        "title": "Liferay Training",
+        "category": "FullStack",
+        "description": "Training on Liferay that unifies Devops, Backend and Frontend",
+        "image": "/portfolio/src/assets/Images/Liferay_Training.jpg",
+        "url1": "https://github.com/javiersanzgarcia/Liferay-training",
+        "url2": "https://github.com/javiersanzgarcia/Liferay-training"
       },
       {
         "title": "MERN Stack with Docker",
@@ -131,8 +131,8 @@
         "url2": "https://github.com/javiersanzgarcia/mern-docker-compose"
       },
       {
-        "title": "Login Spring Boot",
-        "category": "BackEnd",
+        "title": "Monorepo JS",
+        "category": "FullStack",
         "description": "Liferay Digital Experience Platform is a complete digital experience platform that helps you create exceptional digital experiences. It is the only solution that unifies content, experience, and commerce on one platform to deliver personalized interactions at scale.",
         "image": "liferay.png",
         "url1": "https://www.liferay.com/products/dxp",

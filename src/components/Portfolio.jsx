@@ -22,7 +22,7 @@ export const Portfolio = () => {
               <div className="blog-col" key={item.title}>
                 <div className="blog-img">
                   <img
-                    className="imge"
+                    className="image"
                     src={item.image}
                     alt={item.description}
                   />
@@ -32,15 +32,15 @@ export const Portfolio = () => {
                 </div>
                 <div className="post-content">
                   <div className="post-title">
-                    <a href={item.url1}>
+                    <a href={item.url1} target="_blank">
                       <h4>{item.title}</h4>
                     </a>
                   </div>
                   <div className="post-text">
                     <p>{item.description}</p>
                   </div>
-                  <a href={item.url2} className="post-more">
-                    {t('portfolio.readme')}{' '}
+                  <a href={item.url2} target="_blank" className="post-more">
+                    {t('portfolio.readme')}
                     <i className="fa fa-angle-double-right"></i>
                   </a>
                 </div>
