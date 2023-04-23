@@ -125,18 +125,18 @@
       {
         "title": "MERN Stack with Docker",
         "category": "FullStack",
-        "description": "Liferay Digital Experience Platform is a complete digital experience platform that helps you create exceptional digital experiences. It is the only solution that unifies content, experience, and commerce on one platform to deliver personalized interactions at scale.",
-        "image": "liferay",
-        "url1": "https://www.liferay.com/products/dxp",
+        "description": "MERN Stack (MongoDB, Express, React and Node) with Docker Compose",
+        "image": "Mern_Docker",
+        "url1": "https://github.com/javiersanzgarcia/mern-docker-compose",
         "url2": "https://github.com/javiersanzgarcia/mern-docker-compose"
       },
       {
         "title": "Monorepo JS",
         "category": "FullStack",
-        "description": "Liferay Digital Experience Platform is a complete digital experience platform that helps you create exceptional digital experiences. It is the only solution that unifies content, experience, and commerce on one platform to deliver personalized interactions at scale.",
-        "image": "liferay",
-        "url1": "https://www.liferay.com/products/dxp",
-        "url2": "https://github.com/javiersanzgarcia/mern-docker-compose"
+        "description": "Why take the decision of a Monorepo. This particular case: Monorepo with Lerna, Typescript, Express and React with Vite",
+        "image": "Monorepo",
+        "url1": "https://github.com/javiersanzgarcia/Monorepo_JS",
+        "url2": "https://github.com/javiersanzgarcia/Monorepo_JS"
       }
     ]
   },
