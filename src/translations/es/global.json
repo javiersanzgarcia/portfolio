@@ -94,7 +94,7 @@
         "title": "Neovim",
         "category": "FullStack",
         "description": "Configuración personal Neovim y disponible para la comunidad",
-        "image": "Nvim.jpg",
+        "image": "Nvim",
         "url1": "https://github.com/javiersanzgarcia/nvim",
         "url2": "https://github.com/javiersanzgarcia/nvim"
       },
@@ -102,7 +102,7 @@
         "title": "Portfolio",
         "category": "FrontEnd",
         "description": "Portfolio personal para mostrar mis proyectos y experiencia",
-        "image": "Portfolio.jpg",
+        "image": "Portfolio",
         "url1": "https://javiersanzgarcia.github.io/portfolio/",
         "url2": "https://github.com/javiersanzgarcia/portfolio"
       },
@@ -110,7 +110,7 @@
         "title": "Travel Agency",
         "description": "Travel Agency es una página web que está construida usando HTML, CSS y JavaScript. Este sitio es completamente responsivo y funciona bien en todos los dispositivos",
         "category": "FrontEnd",
-        "image": "Travel_Agency.jpg",
+        "image": "Travel_Agency",
         "url1": "https://javiersanzgarcia.github.io/TravelAgency",
         "url2": "https://github.com/javiersanzgarcia/TravelAgency"
       },
@@ -118,7 +118,7 @@
         "title": "Liferay Training",
         "category": "FullStack",
         "description": "Entrenamiento en Liferay que unifica Devops, Backend and Frontend",
-        "image": "Liferay_Training.jpg",
+        "image": "Liferay_Training",
         "url1": "https://github.com/javiersanzgarcia/Liferay-training",
         "url2": "https://github.com/javiersanzgarcia/Liferay-training"
       },
@@ -126,7 +126,7 @@
         "title": "MERN Stack with Docker",
         "category": "FullStack",
         "description": "Liferay Digital Experience Platform is a complete digital experience platform that helps you create exceptional digital experiences. It is the only solution that unifies content, experience, and commerce on one platform to deliver personalized interactions at scale.",
-        "image": "liferay.png",
+        "image": "liferay",
         "url1": "https://www.liferay.com/products/dxp",
         "url2": "https://github.com/javiersanzgarcia/mern-docker-compose"
       },
@@ -134,7 +134,7 @@
         "title": "Monorepo JS",
         "category": "FullStack",
         "description": "Liferay Digital Experience Platform is a complete digital experience platform that helps you create exceptional digital experiences. It is the only solution that unifies content, experience, and commerce on one platform to deliver personalized interactions at scale.",
-        "image": "liferay.png",
+        "image": "liferay",
         "url1": "https://www.liferay.com/products/dxp",
         "url2": "https://github.com/javiersanzgarcia/mern-docker-compose"
       }
