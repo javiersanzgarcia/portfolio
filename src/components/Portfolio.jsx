@@ -1,11 +1,17 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next'
-
 import '../css/Portfolio.css'
+import nVim from '../assets/Images/Nvim.jpg'
+
+const images = [nVim]
 
 export const Portfolio = () => {
   const { t } = useTranslation('global')
   const items = t('portfolio.projects', { returnObjects: true })
+
+  const getImgURL = (img) => {
+    return images.find((image) => image.includes(img))
+  }
 
   return (
     <>
@@ -23,7 +29,7 @@ export const Portfolio = () => {
                 <div className="blog-img">
                   <img
                     className="image"
-                    src={item.image}
+                    src={getImgURL(item.image)}
                     alt={item.description}
                   />
                   <div className="img-tag">

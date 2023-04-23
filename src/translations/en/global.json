@@ -93,8 +93,8 @@
       {
         "title": "Neovim",
         "category": "FullStack",
-        "description": "Peronal configuration of Neovim, in any case is available for the community",
-        "image": "/portfolio/src/assets/Images/Nvim.jpg",
+        "description": "Personal configuration of Neovim, in any case is available for the community",
+        "image": "Nvim",
         "url1": "https://github.com/javiersanzgarcia/nvim",
         "url2": "https://github.com/javiersanzgarcia/nvim"
       },
@@ -102,7 +102,7 @@
         "title": "Portfolio",
         "category": "FrontEnd",
         "description": "Personal portfolio to show my projects and experience",
-        "image": "/portfolio/src/assets/Images/Portfolio.jpg",
+        "image": "/portfolio/assets/Images/Portfolio.jpg",
         "url1": "https://javiersanzgarcia.github.io/portfolio/",
         "url2": "https://github.com/javiersanzgarcia/portfolio"
       },
