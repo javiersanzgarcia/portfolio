@@ -93,7 +93,7 @@
       {
         "title": "Neovim",
         "category": "FullStack",
-        "description": "Configuración personal Neovim y disponible para la comunidad",
+        "description": "Peronal configuration of Neovim, in any case is available for the community",
         "image": "/portfolio/src/assets/Images/Nvim.jpg",
         "url1": "https://github.com/javiersanzgarcia/nvim",
         "url2": "https://github.com/javiersanzgarcia/nvim"
@@ -103,8 +103,8 @@
         "category": "FrontEnd",
         "description": "Liferay Digital Experience Platform is a complete digital experience platform that helps you create exceptional digital experiences. It is the only solution that unifies content, experience, and commerce on one platform to deliver personalized interactions at scale.",
         "image": "/portfolio/src/assets/Images/Portfolio.jpg",
-        "url1": "https://www.liferay.com/products/dxp",
-        "url2": "https://javiersanzgarcia.github.io/TravelAgency/#/"
+        "url1": "https://github.com/javiersanzgarcia/portfolio",
+        "url2": "https://javiersanzgarcia.github.io/portfolio/"
       },
       {
         "title": "Liferay Training",
