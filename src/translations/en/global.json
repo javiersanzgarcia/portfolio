@@ -115,7 +115,7 @@
         "url2": "https://github.com/javiersanzgarcia/TravelAgency"
       },
       {
-        "title": "Liferay Training",
+    "title": "Liferay Training",        
         "category": "FullStack",
         "description": "Training on Liferay that unifies Devops, Backend and Frontend",
         "image": "Liferay_Training",

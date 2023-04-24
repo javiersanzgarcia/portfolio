@@ -1,19 +1,19 @@
 {
   "menu": {
     "home": "Inicio",
-    "about": "Sobre mi",
+    "about": "Sobre mí",
     "services": "Servicios",
     "contact": "Contacto",
-    "hire": "Contratame!"
+    "hire": "Contrátame!"
   },
   "home": {
     "hello": "Hola !",
     "iam": "Soy",
-    "resume": "En las siguientes secciones descubrirá que soy una persona resolutiva que tiene la capacidad de abordar situaciones problematicas y trabajar en equipo aportando mi conocimiento y experiencia.",
+    "resume": "En las siguientes secciones descubrirá que soy una persona resolutiva que tiene la capacidad de abordar situaciones problemáticas y trabajar en equipo aportando mi conocimiento y experiencia.",
     "linkedin": "https://www.linkedin.com/in/javier-sanz-garc%C3%ADa"
   },
   "about": {
-    "title": "sobre mi",
+    "title": "sobre mí",
     "hail": "Hola, Mi Nombre Es",
     "text": "Soy programador con más de 15 años de experiencia, principalmente orientado a entornos web y especializado en Java para Backend (Liferay mayormente) y React para Frontend",
     "button": "descargar cv"
@@ -25,8 +25,8 @@
         "timeJob": "04/2022 - Present",
         "position": "Líder Técnico Frontend",
         "skills": [
-          "Mentorizar y guiar el desarrollo de ingenieros junior",
-          "Dirigir las practicas de desarrollo usadas con el equipo",
+          "Mentorizar y guiar el desarrollo de programadores junior",
+          "Dirigir las prácticas de desarrollo usadas con el equipo",
           "Resolución de bugs y mejora de rendimiento en el sistema",
           "Trabajar con el equipo de arquitectura y desarrollar el mejor diseño técnico"
         ]
@@ -35,9 +35,9 @@
         "timeJob": "03/2021 - 03/2022",
         "position": "Desarrollador Senior Liferay",
         "skills": [
-          "Lider del departamento de Desarrollo de cadena de suministro",
+          "Líder del departamento de Desarrollo de cadena de suministro",
           "Generar ideas con los miembros del equipo y ofrecer soluciones",
-          "Mantenerse actualizado con las nuevas tecnologías y enseñar al resto de desarrolladores cómo incorporar nuevas tendencias"
+          "Mantenerse actualizado con las nuevas tecnologías y fomentar cómo incorporar dichas tendencias"
         ]
       },
       {
@@ -45,15 +45,15 @@
         "position": "Desarrollador React",
         "skills": [
           "Comprensión y mantenimiento de las aplicaciones web y las prácticas de programación",
-          "Conferenciar con el equipo para resolver conflictos, priorizar necesidades, desarrollar criterios de contenido o elegir soluciones"
+          "Conferenciar con el equipo para resolver conflictos, priorizar necesidades, desarrollar critérios de contenido o elegir soluciones"
         ]
       },
       {
         "timeJob": "07/2018 - 06/2020",
         "position": "Desarrollador Senior Liferay",
         "skills": [
-          "Cumplir tareas tecnicas y organizativas al desarrollar resultados de forma agil y coherente",
-          "Apoyo y desarrollo de ingenieros no expertos, brindando asesoramiento, capacitación y oportunidades educativas"
+          "Cumplir tareas técnicas y organizativas al desarrollar resultados de forma ágil y coherente",
+          "Apoyo y desarrollo de ingenieros juniors, brindando asesoramiento, capacitación y oportunidades educativas"
         ]
       }
     ]
@@ -79,8 +79,8 @@
         "icon": "fa-code"
       },
       {
-        "title": "Lider Técnico",
-        "text": "Dirigir Desarrollo y Mentorizar desarrolladores de Software",
+        "title": "Líder Técnico",
+        "text": "Liderar el aspecto Técnico y Mentorizar desarrolladores de Software",
         "icon": "fa-user"
       }
     ]
@@ -101,7 +101,7 @@
       {
         "title": "Portfolio",
         "category": "FrontEnd",
-        "description": "Portfolio personal para mostrar mis proyectos y experiencia",
+        "description": "Portfolio personal para mostrar mís proyectos y experiencia",
         "image": "Portfolio",
         "url1": "https://javiersanzgarcia.github.io/portfolio/",
         "url2": "https://github.com/javiersanzgarcia/portfolio"
