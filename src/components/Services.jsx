@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react'
+import certificate from '../assets/AWS Certified Cloud Practitioner certificate.pdf'
 import { useTranslation } from 'react-i18next'
 import '../css/Services.css'
 import Aos from 'aos'
@@ -39,6 +40,9 @@ export const Services = () => {
                   <div className="service-desc">
                     <h2>{service.title}</h2>
                     <p>{service.text}</p>
+                    {service.icon === 'fa-cloud' && (
+                      <a href={certificate}>Certificate</a>
+                    )}
                   </div>
                 </div>
               </div>

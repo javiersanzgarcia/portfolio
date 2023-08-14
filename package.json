@@ -9,7 +9,8 @@
     "preview": "vite preview",
     "lint": "eslint .",
     "lint:fix": "eslint --fix",
-    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc"
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,css,md,json}' --config ./.prettierrc",
+    "deploy": "vite build && git subtree push --prefix dist origin gh-pages"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -25,8 +26,8 @@
     "@types/react-dom": "18.0.10",
     "@vitejs/plugin-react": "^3.1.0",
     "eslint": "8.33.0",
-    "eslint-plugin-prettier": "4.2.1",
     "eslint-config-prettier": "8.6.0",
+    "eslint-plugin-prettier": "4.2.1",
     "eslint-plugin-react": "7.30.0",
     "prettier": "2.8.3",
     "vite": "4.1.0"

@@ -9,20 +9,18 @@ import Contact from './components/Contact'
 import Footer from './components/Footer'
 import './App.css'
 
-const App = () => {
-  return (
-    <>
-      <Navbar />
-      <Home />
-      <About />
-      <Resume />
-      <Services />
-      {/* <Testimonail /> */}
-      <Portfolio />
-      <Contact />
-      <Footer />
-    </>
-  )
-}
+const App = () => (
+  <>
+    <Navbar />
+    <Home />
+    <About />
+    <Resume />
+    <Services />
+    {/* <Testimonail /> */}
+    <Portfolio />
+    <Contact />
+    <Footer />
+  </>
+)
 
 export default App

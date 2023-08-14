@@ -74,9 +74,9 @@
         "icon": "fa-server"
       },
       {
-        "title": "Desarrollador FullStack",
-        "text": "Desarrollo y Soporte con Liferay, Java/React o Node/Express/React",
-        "icon": "fa-code"
+        "title": "DevOps",
+        "text": "Amazon Web Services Certified Cloud Practitioner",
+        "icon": "fa-cloud"
       },
       {
         "title": "Líder Técnico",
@@ -91,12 +91,12 @@
     "readme": "Ir aquí",
     "projects": [
       {
-        "title": "Neovim",
+        "title": "LazyVim",
         "category": "FullStack",
-        "description": "Configuración personal Neovim y disponible para la comunidad",
+        "description": "Configuración personal sobre LazyVim y disponible para la comunidad",
         "image": "Nvim",
-        "url1": "https://github.com/javiersanzgarcia/nvim",
-        "url2": "https://github.com/javiersanzgarcia/nvim"
+        "url1": "https://github.com/javiersanzgarcia/LazyVim",
+        "url2": "https://github.com/javiersanzgarcia/LazyVim"
       },
       {
         "title": "Portfolio",

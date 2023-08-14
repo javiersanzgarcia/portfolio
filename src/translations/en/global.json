@@ -74,9 +74,9 @@
         "icon": "fa-server"
       },
       {
-        "title": "FullStack Development",
-        "text": "Development and support with Liferay, Java//React or Node/Express/React",
-        "icon": "fa-code"
+        "title": "DevOps",
+        "text": "Amazon Web Services Certified Cloud Practitioner",
+        "icon": "fa-cloud"
       },
       {
         "title": "Tech Lead",
@@ -91,12 +91,12 @@
     "readme": "Read more",
     "projects": [
       {
-        "title": "Neovim",
+        "title": "LazyVim",
         "category": "FullStack",
-        "description": "Personal configuration of Neovim, in any case is available for the community",
+        "description": "Personal configuration of LazyVim, in any case is available for the community",
         "image": "Nvim",
-        "url1": "https://github.com/javiersanzgarcia/nvim",
-        "url2": "https://github.com/javiersanzgarcia/nvim"
+        "url1": "https://github.com/javiersanzgarcia/LazyVim",
+        "url2": "https://github.com/javiersanzgarcia/LazyVim"
       },
       {
         "title": "Portfolio",
@@ -115,7 +115,7 @@
         "url2": "https://github.com/javiersanzgarcia/TravelAgency"
       },
       {
-    "title": "Liferay Training",        
+        "title": "Liferay Training",
         "category": "FullStack",
         "description": "Training on Liferay that unifies Devops, Backend and Frontend",
         "image": "Liferay_Training",
