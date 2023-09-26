@@ -22,33 +22,23 @@ const Resume = () => {
           <div className="res-col">
             <div className="timeline">
               <ul>
-                {jobs.map((job, index) =>
-                  index % 2 === 0 ? (
-                    <li key={index}>
-                      <div data-aos="fade-right" className="content">
-                        <span className="date">{job.timeJob}</span>
-                        <h4>{job.position}</h4>
-                        {job.skills.map((skill, index) => (
-                          <span key={index} className="textLeft">
-                            {skill}
-                          </span>
-                        ))}
-                      </div>
-                    </li>
-                  ) : (
-                    <li key={index}>
-                      <div data-aos="fade-left" className="content">
-                        <span className="date">{job.timeJob}</span>
-                        <h4>{job.position}</h4>
-                        {job.skills.map((skill, index) => (
-                          <span key={index} className="textLeft">
-                            {skill}
-                          </span>
-                        ))}
-                      </div>
-                    </li>
-                  )
-                )}
+                {jobs.map((job, index) => (
+                  <li key={index}>
+                    <div
+                      data-aos={index % 2 === 0 ? 'fade-right' : 'fade-left'}
+                      className="content"
+                    >
+                      <span className="date">{job.timeJob}</span>
+                      <h5>{job.company}</h5>
+                      <h4>{job.position}</h4>
+                      {job.skills.map((skill, index) => (
+                        <span key={index} className="textLeft">
+                          {skill}
+                        </span>
+                      ))}
+                    </div>
+                  </li>
+                ))}
               </ul>
             </div>
           </div>

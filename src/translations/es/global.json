@@ -1,155 +1,170 @@
 {
-  "menu": {
-    "home": "Inicio",
-    "about": "Sobre mí",
-    "services": "Servicios",
-    "contact": "Contacto",
-    "hire": "Contrátame!"
+  "about": {
+    "button": "descargar cv",
+    "hail": "Hola, Mi Nombre Es",
+    "text": "Soy programador con más de 15 años de experiencia, principalmente orientado a entornos web y especializado en Java para Backend (Liferay mayormente) y React para Frontend",
+    "title": "sobre mí"
+  },
+  "contact": {
+    "description": "Si tienes alguna pregunta o quieres trabajar conmigo, no dudes en escribirme.",
+    "form": {
+      "button": "Enviar Mensaje",
+      "comment": "Asunto",
+      "name": "Nombre"
+    },
+    "title": "Contáctame"
+  },
+  "footer": {
+    "rights": "Todos los derechos reservados por"
   },
   "home": {
     "hello": "Hola !",
     "iam": "Soy",
-    "resume": "En las siguientes secciones descubrirá que soy una persona resolutiva que tiene la capacidad de abordar situaciones problemáticas y trabajar en equipo aportando mi conocimiento y experiencia.",
-    "linkedin": "https://www.linkedin.com/in/javier-sanz-garc%C3%ADa"
+    "linkedin": "https://www.linkedin.com/in/javier-sanz-garc%C3%ADa",
+    "resume": "En las siguientes secciones descubrirá que soy una persona resolutiva que tiene la capacidad de abordar situaciones problemáticas y trabajar en equipo aportando mi conocimiento y experiencia."
   },
-  "about": {
-    "title": "sobre mí",
-    "hail": "Hola, Mi Nombre Es",
-    "text": "Soy programador con más de 15 años de experiencia, principalmente orientado a entornos web y especializado en Java para Backend (Liferay mayormente) y React para Frontend",
-    "button": "descargar cv"
+  "menu": {
+    "about": "Sobre mí",
+    "contact": "Contacto",
+    "hire": "Contrátame!",
+    "home": "Inicio",
+    "services": "Servicios"
+  },
+  "portfolio": {
+    "description": "Aquí puedes ver algunos de los proyectos que realizo en mi tiempo libre",
+    "projects": [
+      {
+        "category": "FullStack",
+        "description": "Configuración personal sobre LazyVim y disponible para la comunidad",
+        "image": "Nvim",
+        "title": "LazyVim",
+        "url1": "https://github.com/javiersanzgarcia/LazyVim",
+        "url2": "https://github.com/javiersanzgarcia/LazyVim"
+      },
+      {
+        "category": "FrontEnd",
+        "description": "Portfolio personal para mostrar mís proyectos y experiencia",
+        "image": "Portfolio",
+        "title": "Portfolio",
+        "url1": "https://javiersanzgarcia.github.io/portfolio/",
+        "url2": "https://github.com/javiersanzgarcia/portfolio"
+      },
+      {
+        "category": "FrontEnd",
+        "description": "Travel Agency es una página web que está construida usando HTML, CSS y JavaScript. Este sitio es completamente responsivo y funciona bien en todos los dispositivos",
+        "image": "Travel_Agency",
+        "title": "Travel Agency",
+        "url1": "https://javiersanzgarcia.github.io/TravelAgency",
+        "url2": "https://github.com/javiersanzgarcia/TravelAgency"
+      },
+      {
+        "category": "FullStack",
+        "description": "Entrenamiento en Liferay que unifica Devops, Backend y Frontend",
+        "image": "Liferay_Training",
+        "title": "Liferay Training",
+        "url1": "https://github.com/javiersanzgarcia/Liferay-training",
+        "url2": "https://github.com/javiersanzgarcia/Liferay-training"
+      },
+      {
+        "category": "FullStack",
+        "description": "MERN Stack (MongoDB, Express, React y Node) con Docker Compose",
+        "image": "Mern_Docker",
+        "title": "MERN Stack with Docker",
+        "url1": "https://github.com/javiersanzgarcia/mern-docker-compose",
+        "url2": "https://github.com/javiersanzgarcia/mern-docker-compose"
+      },
+      {
+        "category": "FullStack",
+        "description": "Porqué tomar la decisión de usar Monorepo. Este caso particular case: Monorepo con Lerna, Typescript, Express y React con Vite",
+        "image": "Monorepo",
+        "title": "Monorepo JS",
+        "url1": "https://github.com/javiersanzgarcia/Monorepo_JS",
+        "url2": "https://github.com/javiersanzgarcia/Monorepo_JS"
+      }
+    ],
+    "readme": "Ir aquí",
+    "title": "Portfolio"
   },
   "resume": {
-    "title": "Mi Última Experiencia",
     "jobs": [
       {
-        "timeJob": "04/2022 - Actualidad",
+        "company": "Hiberus",
+        "position": "React Technical Lead",
+        "skills": [
+          "Mentorizar y guiar el desarrollo de programadores júnior",
+          "Dirigir las prácticas de desarrollo usadas con el equipo",
+          "Resolución de errores y mejora de rendimiento en el sistema",
+          "Trabajar con el equipo de arquitectura y desarrollar el mejor diseño técnico"
+        ],
+        "timeJob": "09/2023 - Actualidad"
+      },
+      {
+        "company": "Cognizant",
         "position": "Líder Técnico Frontend",
         "skills": [
           "Mentorizar y guiar el desarrollo de programadores júnior",
           "Dirigir las prácticas de desarrollo usadas con el equipo",
           "Resolución de errores y mejora de rendimiento en el sistema",
           "Trabajar con el equipo de arquitectura y desarrollar el mejor diseño técnico"
-        ]
+        ],
+        "timeJob": "04/2022 - 09/2023"
       },
       {
-        "timeJob": "03/2021 - 03/2022",
+        "company": "Cognizant",
         "position": "Desarrollador Sénior Liferay",
         "skills": [
           "Líder del departamento de Desarrollo de cadena de suministro",
           "Generar ideas con los miembros del equipo y ofrecer soluciones",
           "Mantenerse actualizado con las nuevas tecnologías y fomentar cómo incorporar dichas tendencias"
-        ]
+        ],
+        "timeJob": "03/2021 - 03/2022"
       },
       {
-        "timeJob": "07/2020 - 02/2021",
+        "company": "Deloitte",
         "position": "Desarrollador React",
         "skills": [
           "Comprensión y mantenimiento de las aplicaciones web y las prácticas de programación",
           "Conferenciar con el equipo para resolver conflictos, priorizar necesidades, desarrollar criterios de contenido o elegir soluciones"
-        ]
+        ],
+        "timeJob": "07/2020 - 02/2021"
       },
       {
-        "timeJob": "07/2018 - 06/2020",
+        "company": "Deloitte",
         "position": "Desarrollador Sénior Liferay",
         "skills": [
           "Cumplir tareas técnicas y organizativas al desarrollar resultados de forma ágil y coherente",
           "Apoyo y desarrollo de ingenieros júniors, brindando asesoramiento, capacitación y oportunidades educativas"
-        ]
+        ],
+        "timeJob": "07/2018 - 06/2020"
       }
-    ]
+    ],
+    "title": "Mi Última Experiencia"
   },
   "services": {
-    "title1": "MIS",
-    "title2": "SERVICIOS",
     "description": "Estos son algunos de los servicios que ofrezco",
     "services": [
       {
-        "title": "Desarrollador FrontEnd",
+        "icon": "fa-laptop",
         "text": "Desarrollo Javascript/TypeScript especializado en React",
-        "icon": "fa-laptop"
+        "title": "Desarrollador FrontEnd"
       },
       {
-        "title": "Desarrollador BackEnd",
+        "icon": "fa-server",
         "text": "Desarrollo en Java especializado en Liferay o Express",
-        "icon": "fa-server"
+        "title": "Desarrollador BackEnd"
       },
       {
-        "title": "DevOps",
+        "icon": "fa-cloud",
         "text": "Amazon Web Services Certified Cloud Practitioner",
-        "icon": "fa-cloud"
+        "title": "DevOps"
       },
       {
-        "title": "Líder Técnico",
+        "icon": "fa-user",
         "text": "Liderar el aspecto Técnico y Mentorizar desarrolladores de Software",
-        "icon": "fa-user"
+        "title": "Líder Técnico"
       }
-    ]
-  },
-  "portfolio": {
-    "title": "Portfolio",
-    "description": "Aquí puedes ver algunos de los proyectos que realizo en mi tiempo libre",
-    "readme": "Ir aquí",
-    "projects": [
-      {
-        "title": "LazyVim",
-        "category": "FullStack",
-        "description": "Configuración personal sobre LazyVim y disponible para la comunidad",
-        "image": "Nvim",
-        "url1": "https://github.com/javiersanzgarcia/LazyVim",
-        "url2": "https://github.com/javiersanzgarcia/LazyVim"
-      },
-      {
-        "title": "Portfolio",
-        "category": "FrontEnd",
-        "description": "Portfolio personal para mostrar mís proyectos y experiencia",
-        "image": "Portfolio",
-        "url1": "https://javiersanzgarcia.github.io/portfolio/",
-        "url2": "https://github.com/javiersanzgarcia/portfolio"
-      },
-      {
-        "title": "Travel Agency",
-        "description": "Travel Agency es una página web que está construida usando HTML, CSS y JavaScript. Este sitio es completamente responsivo y funciona bien en todos los dispositivos",
-        "category": "FrontEnd",
-        "image": "Travel_Agency",
-        "url1": "https://javiersanzgarcia.github.io/TravelAgency",
-        "url2": "https://github.com/javiersanzgarcia/TravelAgency"
-      },
-      {
-        "title": "Liferay Training",
-        "category": "FullStack",
-        "description": "Entrenamiento en Liferay que unifica Devops, Backend y Frontend",
-        "image": "Liferay_Training",
-        "url1": "https://github.com/javiersanzgarcia/Liferay-training",
-        "url2": "https://github.com/javiersanzgarcia/Liferay-training"
-      },
-      {
-        "title": "MERN Stack with Docker",
-        "category": "FullStack",
-        "description": "MERN Stack (MongoDB, Express, React y Node) con Docker Compose",
-        "image": "Mern_Docker",
-        "url1": "https://github.com/javiersanzgarcia/mern-docker-compose",
-        "url2": "https://github.com/javiersanzgarcia/mern-docker-compose"
-      },
-      {
-        "title": "Monorepo JS",
-        "category": "FullStack",
-        "description": "Porqué tomar la decisión de usar Monorepo. Este caso particular case: Monorepo con Lerna, Typescript, Express y React con Vite",
-        "image": "Monorepo",
-        "url1": "https://github.com/javiersanzgarcia/Monorepo_JS",
-        "url2": "https://github.com/javiersanzgarcia/Monorepo_JS"
-      }
-    ]
-  },
-  "contact": {
-    "title": "Contáctame",
-    "description": "Si tienes alguna pregunta o quieres trabajar conmigo, no dudes en escribirme.",
-    "form": {
-      "name": "Nombre",
-      "comment": "Asunto",
-      "button": "Enviar Mensaje"
-    }
-  },
-  "footer": {
-    "rights": "Todos los derechos reservados por"
+    ],
+    "title1": "MIS",
+    "title2": "SERVICIOS"
   }
 }

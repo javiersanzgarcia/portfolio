@@ -1,155 +1,170 @@
 {
-  "menu": {
-    "home": "Home",
-    "about": "About",
-    "services": "Services",
-    "contact": "Contact",
-    "hire": "Hire Me!"
+  "about": {
+    "button": "download cv",
+    "hail": "Hi, My Name Is",
+    "text": "I’m a programmer with more of 15 years experience, mainly oriented to web environment and specialized in Java for Backend (Liferay mostly) and React for Frontend",
+    "title": "about me"
+  },
+  "contact": {
+    "description": "If you have any questions or you want to work with me, don´t hesitate to contact me",
+    "form": {
+      "button": "Send Message",
+      "comment": "Comment",
+      "name": "Name"
+    },
+    "title": "Contact Me"
+  },
+  "footer": {
+    "rights": "All rights reserved by"
   },
   "home": {
     "hello": "Hello !",
     "iam": "I am",
-    "resume": "In the next sections you will discover that I am a decisive person who has the ability to address problematic situations and team work, contributing with my knowledge and experience.",
-    "linkedin": "https://www.linkedin.com/in/javier-sanz-garc%C3%ADa/?locale=en_US"
+    "linkedin": "https://www.linkedin.com/in/javier-sanz-garc%C3%ADa/?locale=en_US",
+    "resume": "In the next sections you will discover that I am a decisive person who has the ability to address problematic situations and team work, contributing with my knowledge and experience."
   },
-  "about": {
-    "title": "about me",
-    "hail": "Hi, My Name Is",
-    "text": "I’m a programmer with more of 15 years experience, mainly oriented to web environment and specialized in Java for Backend (Liferay mostly) and React for Frontend",
-    "button": "download cv"
+  "menu": {
+    "about": "About",
+    "contact": "Contact",
+    "hire": "Hire Me!",
+    "home": "Home",
+    "services": "Services"
+  },
+  "portfolio": {
+    "description": "Here you can se of my personal projects that I do in my free time",
+    "projects": [
+      {
+        "category": "FullStack",
+        "description": "Personal configuration of LazyVim, in any case is available for the community",
+        "image": "Nvim",
+        "title": "LazyVim",
+        "url1": "https://github.com/javiersanzgarcia/LazyVim",
+        "url2": "https://github.com/javiersanzgarcia/LazyVim"
+      },
+      {
+        "category": "FrontEnd",
+        "description": "Personal portfolio to show my projects and experience",
+        "image": "Portfolio",
+        "title": "Portfolio",
+        "url1": "https://javiersanzgarcia.github.io/portfolio/",
+        "url2": "https://github.com/javiersanzgarcia/portfolio"
+      },
+      {
+        "category": "FrontEnd",
+        "description": "Travel Agency is a website that is built using HTML, CSS and JavaScript. The website is fully responsive and works well on all devices.",
+        "image": "Travel_Agency",
+        "title": "Travel Agency",
+        "url1": "https://javiersanzgarcia.github.io/TravelAgency",
+        "url2": "https://github.com/javiersanzgarcia/TravelAgency"
+      },
+      {
+        "category": "FullStack",
+        "description": "Training on Liferay that unifies Devops, Backend and Frontend",
+        "image": "Liferay_Training",
+        "title": "Liferay Training",
+        "url1": "https://github.com/javiersanzgarcia/Liferay-training",
+        "url2": "https://github.com/javiersanzgarcia/Liferay-training"
+      },
+      {
+        "category": "FullStack",
+        "description": "MERN Stack (MongoDB, Express, React and Node) with Docker Compose",
+        "image": "Mern_Docker",
+        "title": "MERN Stack with Docker",
+        "url1": "https://github.com/javiersanzgarcia/mern-docker-compose",
+        "url2": "https://github.com/javiersanzgarcia/mern-docker-compose"
+      },
+      {
+        "category": "FullStack",
+        "description": "Why take the decision of a Monorepo. This particular case: Monorepo with Lerna, Typescript, Express and React with Vite",
+        "image": "Monorepo",
+        "title": "Monorepo JS",
+        "url1": "https://github.com/javiersanzgarcia/Monorepo_JS",
+        "url2": "https://github.com/javiersanzgarcia/Monorepo_JS"
+      }
+    ],
+    "readme": "Read more",
+    "title": "Portfolio"
   },
   "resume": {
-    "title": "My Last Experience",
     "jobs": [
       {
-        "timeJob": "04/2022 - Present",
+        "company": "Hiberus",
+        "position": "React Technical Lead",
+        "skills": [
+          "Mentor and guide the development of junior engineers",
+          "Drive development practices used within the team",
+          "Resolve bugs and improve system performance",
+          "Work closely with engineers to architect and develop the best technical design and approach"
+        ],
+        "timeJob": "09/2023 - Present"
+      },
+      {
+        "company": "Cognizant",
         "position": "Frontend Technical Lead",
         "skills": [
           "Mentor and guide the development of junior engineers",
           "Drive development practices used within the team",
           "Resolve bugs and improve system performance",
-          "Work closely with engineers to architect and develop the best      technical design and approach"
-        ]
+          "Work closely with engineers to architect and develop the best technical design and approach"
+        ],
+        "timeJob": "04/2022 - 09/2023"
       },
       {
-        "timeJob": "03/2021 - 03/2022",
+        "company": "Cognizant",
         "position": "Senior Liferay Developer",
         "skills": [
           "Lead Supply Chain development department",
           "Generate ideas with team members and offering solutions",
           "Staying up to date with new technology and teaching other developers how to incorporate new trends"
-        ]
+        ],
+        "timeJob": "03/2021 - 03/2022"
       },
       {
-        "timeJob": "07/2020 - 02/2021",
+        "company": "Deloitte",
         "position": "React Developer",
         "skills": [
           "Maintaining an understanding web applications and programming practices",
           "Conferring with team to resolve conflicts, prioritize needs, develop content criteria, or choose solutions"
-        ]
+        ],
+        "timeJob": "07/2020 - 02/2021"
       },
       {
-        "timeJob": "07/2018 - 06/2020",
+        "company": "Deloitte",
         "position": "Senior Liferay Developer",
         "skills": [
           "Accomplishes engineering and organization mission by completing related results as needed",
           "Supports and develops software engineers providing advice, coaching, and educational opportunities"
-        ]
+        ],
+        "timeJob": "07/2018 - 06/2020"
       }
-    ]
+    ],
+    "title": "My Last Experience"
   },
   "services": {
-    "title1": "MY",
-    "title2": "SERVICES",
     "description": "That are some of the services that I offer to provide",
     "services": [
       {
-        "title": "FrontEnd Development",
+        "icon": "fa-laptop",
         "text": "Javascript/TypeScript development specialized in React",
-        "icon": "fa-laptop"
+        "title": "FrontEnd Development"
       },
       {
-        "title": "BackEnd Development",
+        "icon": "fa-server",
         "text": "Java development specialized in Liferay or Express",
-        "icon": "fa-server"
+        "title": "BackEnd Development"
       },
       {
-        "title": "DevOps",
+        "icon": "fa-cloud",
         "text": "Amazon Web Services Certified Cloud Practitioner",
-        "icon": "fa-cloud"
+        "title": "DevOps"
       },
       {
-        "title": "Tech Lead",
+        "icon": "fa-user",
         "text": "Drive Development, Technical Lead and Guidance for software developers",
-        "icon": "fa-user"
+        "title": "Tech Lead"
       }
-    ]
-  },
-  "portfolio": {
-    "title": "Portfolio",
-    "description": "Here you can se of my personal projects that I do in my free time",
-    "readme": "Read more",
-    "projects": [
-      {
-        "title": "LazyVim",
-        "category": "FullStack",
-        "description": "Personal configuration of LazyVim, in any case is available for the community",
-        "image": "Nvim",
-        "url1": "https://github.com/javiersanzgarcia/LazyVim",
-        "url2": "https://github.com/javiersanzgarcia/LazyVim"
-      },
-      {
-        "title": "Portfolio",
-        "category": "FrontEnd",
-        "description": "Personal portfolio to show my projects and experience",
-        "image": "Portfolio",
-        "url1": "https://javiersanzgarcia.github.io/portfolio/",
-        "url2": "https://github.com/javiersanzgarcia/portfolio"
-      },
-      {
-        "title": "Travel Agency",
-        "category": "FrontEnd",
-        "description": "Travel Agency is a website that is built using HTML, CSS and JavaScript. The website is fully responsive and works well on all devices.",
-        "image": "Travel_Agency",
-        "url1": "https://javiersanzgarcia.github.io/TravelAgency",
-        "url2": "https://github.com/javiersanzgarcia/TravelAgency"
-      },
-      {
-        "title": "Liferay Training",
-        "category": "FullStack",
-        "description": "Training on Liferay that unifies Devops, Backend and Frontend",
-        "image": "Liferay_Training",
-        "url1": "https://github.com/javiersanzgarcia/Liferay-training",
-        "url2": "https://github.com/javiersanzgarcia/Liferay-training"
-      },
-      {
-        "title": "MERN Stack with Docker",
-        "category": "FullStack",
-        "description": "MERN Stack (MongoDB, Express, React and Node) with Docker Compose",
-        "image": "Mern_Docker",
-        "url1": "https://github.com/javiersanzgarcia/mern-docker-compose",
-        "url2": "https://github.com/javiersanzgarcia/mern-docker-compose"
-      },
-      {
-        "title": "Monorepo JS",
-        "category": "FullStack",
-        "description": "Why take the decision of a Monorepo. This particular case: Monorepo with Lerna, Typescript, Express and React with Vite",
-        "image": "Monorepo",
-        "url1": "https://github.com/javiersanzgarcia/Monorepo_JS",
-        "url2": "https://github.com/javiersanzgarcia/Monorepo_JS"
-      }
-    ]
-  },
-  "contact": {
-    "title": "Contact Me",
-    "description": "If you have any questions or you want to work with me, don´t hesitate to contact me",
-    "form": {
-      "name": "Name",
-      "comment": "Comment",
-      "button": "Send Message"
-    }
-  },
-  "footer": {
-    "rights": "All rights reserved by"
+    ],
+    "title1": "MY",
+    "title2": "SERVICES"
   }
 }
