@@ -17,3 +17,5 @@ Technologies used:
 For publish the project in GitHub Pages, I used the next command (dist folder should be in the root of the project):
 
 `git subtree push --prefix dist origin gh-pages`
+
+Go to url: <https://javiersanzgarcia.github.io/portfolio/>
