@@ -35,11 +35,11 @@
     "projects": [
       {
         "category": "FullStack",
-        "description": "Personal configuration of LazyVim, in any case is available for the community",
+        "description": "Personal and loading by default a LazyVim configuration, in any case is available for the community",
         "image": "Nvim",
         "title": "LazyVim",
-        "url1": "https://github.com/javiersanzgarcia/LazyVim",
-        "url2": "https://github.com/javiersanzgarcia/LazyVim"
+        "url1": "https://github.com/javiersanzgarcia/nvim",
+        "url2": "https://github.com/javiersanzgarcia/nvim"
       },
       {
         "category": "FrontEnd",
