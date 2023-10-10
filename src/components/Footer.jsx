@@ -9,7 +9,7 @@ const Footer = () => {
     <Fragment>
       <section className="footer">
         <div className="footer-container">
-          <p>Copyright ©2023</p>
+          <p>Copyright ©{new Date().getFullYear()}</p>
           <p>{t('footer.rights')} Javier Sanz Garc&iacute;a </p>
         </div>
       </section>
