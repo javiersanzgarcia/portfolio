@@ -89,7 +89,7 @@
     "jobs": [
       {
         "company": "Hiberus",
-        "position": "React Technical Lead",
+        "position": "Líder Técnico React",
         "skills": [
           "Mentorizar y guiar el desarrollo de programadores júnior",
           "Dirigir las prácticas de desarrollo usadas con el equipo",
@@ -156,7 +156,8 @@
       {
         "icon": "fa-cloud",
         "text": "Amazon Web Services Certified Cloud Practitioner",
-        "title": "DevOps"
+        "title": "DevOps",
+        "cert": "Certificado"
       },
       {
         "icon": "fa-user",

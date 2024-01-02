@@ -156,7 +156,8 @@
       {
         "icon": "fa-cloud",
         "text": "Amazon Web Services Certified Cloud Practitioner",
-        "title": "DevOps"
+        "title": "DevOps",
+        "cert": "Certificate"
       },
       {
         "icon": "fa-user",

@@ -41,7 +41,9 @@ export const Services = () => {
                     <h2>{service.title}</h2>
                     <p>{service.text}</p>
                     {service.icon === 'fa-cloud' && (
-                      <a href={certificate}>Certificate</a>
+                      <a href={certificate} target="_blank">
+                        {service.cert}
+                      </a>
                     )}
                   </div>
                 </div>
