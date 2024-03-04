@@ -14,7 +14,8 @@ Technologies used:
 - i18n (For manage language support)
 - emailjs
 
-For publish the project in GitHub Pages, I used the next command (dist folder should be in the root of the project):
+For publish the project in GitHub Pages, I used the next command
+(before to push anything, the command for the build should be launch and dist folder should be in the root of the project):
 
 `git subtree push --prefix dist origin gh-pages`
 

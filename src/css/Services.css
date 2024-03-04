@@ -49,6 +49,7 @@
 }
 
 .single-ser {
+  min-height: 18rem;
   padding: 40px 40px;
   background: transparent;
   box-shadow: 0px 17px 60px #00000012;
@@ -99,6 +100,10 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .single-ser {
+    min-height: 18rem;
+  }
+
   .services {
     padding: 1rem 4rem 1rem 4rem;
   }
@@ -113,6 +118,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .single-ser {
+    min-height: 16rem;
+  }
+
   .services {
     padding: 0 1rem;
   }
