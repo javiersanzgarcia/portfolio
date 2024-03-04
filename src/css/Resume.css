@@ -57,6 +57,7 @@ span.textLeft {
 .resume .timeline li {
   display: table;
   position: relative;
+  min-width: 100%;
 }
 
 .resume .timeline ul li::before {

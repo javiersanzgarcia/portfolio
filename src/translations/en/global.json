@@ -89,20 +89,20 @@
     "jobs": [
       {
         "company": "Hiberus",
-        "position": "React Technical Lead",
+        "position": "FrontEnd Technical Lead",
         "skills": [
-          "Mentor and guide the development of junior engineers",
-          "Drive development practices used within the team",
+          "Tech Lead for Vue and React projects",
+          "Mentor and guide development",
           "Resolve bugs and improve system performance",
-          "Work closely with engineers to architect and develop the best technical design and approach"
+          "Work closely with client architects to provide best solution possible"
         ],
         "timeJob": "09/2023 - Present"
       },
       {
         "company": "Cognizant",
-        "position": "Frontend Technical Lead",
+        "position": "React Technical Lead",
         "skills": [
-          "Mentor and guide the development of junior engineers",
+          "Mentor and guide the development of engineers",
           "Drive development practices used within the team",
           "Resolve bugs and improve system performance",
           "Work closely with engineers to architect and develop the best technical design and approach"

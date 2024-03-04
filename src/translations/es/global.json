@@ -89,18 +89,18 @@
     "jobs": [
       {
         "company": "Hiberus",
-        "position": "Líder Técnico React",
+        "position": "Líder Técnico FrontEnd",
         "skills": [
-          "Mentorizar y guiar el desarrollo de programadores júnior",
-          "Dirigir las prácticas de desarrollo usadas con el equipo",
-          "Resolución de errores y mejora de rendimiento en el sistema",
-          "Trabajar con el equipo de arquitectura y desarrollar el mejor diseño técnico"
+          "Líder Técnico de proyectos en Vue y React",
+          "Mentorizar y guiar el desarrollo en el equipo",
+          "Resolución de errores y mejora de rendimiento de los diferentes sistemas",
+          "Trabajar con el equipo de arquitectura del cliente y proveer la mejor solución posible"
         ],
         "timeJob": "09/2023 - Actualidad"
       },
       {
         "company": "Cognizant",
-        "position": "Líder Técnico Frontend",
+        "position": "Líder Técnico React",
         "skills": [
           "Mentorizar y guiar el desarrollo de programadores júnior",
           "Dirigir las prácticas de desarrollo usadas con el equipo",
