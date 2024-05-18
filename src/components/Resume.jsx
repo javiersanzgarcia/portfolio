@@ -11,6 +11,7 @@ const Resume = () => {
   useEffect(() => {
     Aos.init({ duration: 1500, once: true, easing: 'ease' })
   }, [])
+
   return (
     <>
       <section className="resume">
