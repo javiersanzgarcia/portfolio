@@ -42,6 +42,10 @@ jobs:
 
       - name: Build with Vite
         run: npm run build
+        env:
+          VITE_SERVICE_ID: ${{ secrets.VITE_SERVICE_ID }}
+          VITE_TEMPLATE_ID: ${{ secrets.VITE_TEMPLATE_ID }}
+          VITE_TOKEN_EMAIL: ${{ secrets.VITE_TOKEN_EMAIL }}
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
