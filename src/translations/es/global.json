@@ -75,7 +75,7 @@
       },
       {
         "category": "FullStack",
-        "description": "Porqué tomar la decisión de usar Monorepo. Este caso particular case: Monorepo con Lerna, Typescript, Express y React con Vite",
+        "description": "Porqué tomar la decisión de usar Monorepo. Este caso particular: Monorepo con Lerna, Typescript, Express y React con Vite",
         "image": "Monorepo",
         "title": "Monorepo JS",
         "url1": "https://github.com/javiersanzgarcia/Monorepo_JS",

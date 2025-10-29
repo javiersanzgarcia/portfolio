@@ -5,6 +5,10 @@ import Aos from 'aos'
 import '../css/Contact.css'
 import 'aos/dist/aos.css'
 
+const SERVICE = import.meta.env.VITE_SERVICE_ID
+const TEMPLATE = import.meta.env.VITE_TEMPLATE_ID
+const TOKEN = import.meta.env.VITE_TOKEN_EMAIL
+
 const Contact = () => {
   const form = useRef()
   const { t } = useTranslation('global')
@@ -12,17 +16,21 @@ const Contact = () => {
   useEffect(() => {
     Aos.init({ duration: 2000, once: true, easing: 'ease' })
   })
-  const sendEmail = (e) => {
+
+ const sendEmail = (e) => {
     e.preventDefault()
+
     emailjs
-      .sendForm(
-        'service_r6i2l0w',
-        'template_ermu9rk',
-        form.current,
-        'CfeHukVtf4oPql74O'
-      )
-      .then(() => form.current.reset())
-    alert('Email sent')
+      .sendForm(SERVICE, TEMPLATE, form.current, TOKEN)
+      .then((response) => {
+        if (response.status === 200) {
+          alert('Email sent')
+        } else {
+          alert('Error sending email')
+        }
+
+        form.current.reset()
+      })
   }
 
   return (
