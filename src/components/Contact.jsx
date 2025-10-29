@@ -17,7 +17,7 @@ const Contact = () => {
     Aos.init({ duration: 2000, once: true, easing: 'ease' })
   })
 
- const sendEmail = (e) => {
+  const sendEmail = (e) => {
     e.preventDefault()
 
     emailjs
