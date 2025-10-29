@@ -7,6 +7,7 @@ import 'aos/dist/aos.css'
 
 export const Services = () => {
   const { t } = useTranslation('global')
+
   const services = t('services.services', { returnObjects: true })
 
   useEffect(() => {
